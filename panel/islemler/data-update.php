@@ -10,7 +10,6 @@ if (isset($_POST['yonetici_paneli'])) {
 		yonetici_paneli_aciklama=:yonetici_paneli_aciklama
 		");
 
-
 	$sonuc=$sorgu->execute(array(
 		'yonetici_paneli_baslik' => $_POST['yonetici_paneli_baslik'],
 		'yonetici_paneli_aciklama' => $_POST['yonetici_paneli_aciklama'],
@@ -27,7 +26,6 @@ if (isset($_POST['yonetici_paneli'])) {
 	
 		$sonuc=$sorgu->execute(array(
 			'yonetici_paneli_icon' => $dosya_ismi,
-	
 		));
 	}
 
@@ -72,7 +70,6 @@ if (isset($_POST['seo'])) {
 	
 		$sonuc=$sorgu->execute(array(
 			'seo_icon' => $dosya_ismi,
-	
 		));
 	}
 
@@ -117,7 +114,6 @@ if (isset($_POST['seoveriekle'])) {
 	
 		$sonuc=$sorgu->execute(array(
 			'seo_icon' => $dosya_ismi,
-	
 		));
 	}
 		
