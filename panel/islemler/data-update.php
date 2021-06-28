@@ -121,9 +121,6 @@ if (isset($_POST['seoveriekle'])) {
 		));
 	}
 		
-
-	
-
 	if ($sonuc) {
 		header("location:../seo-veri-ekle.php?durum=seo-islem-basarili");
 	} else {
