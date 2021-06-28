@@ -127,7 +127,7 @@ if (isset($_POST['seoveriekle'])) {
 		header("location:../seo-veri-ekle.php?durum=seo-islem-basarisiz");
 	}
 	exit;
-
+	
 }
 
 // SEO VERİ EKLEME
