@@ -87,12 +87,18 @@ if (isset($_POST['seo'])) {
 // SEO VERİ EKLEME
 
 if (isset($_POST['seoveriekle'])) {
+	if ($_FILES['seo_icon']['error']=="0") { 
+		$gecici_isim=$_FILES['seo_icon']['tmp_name'];
+		$dosya_ismi=rand(100000,999999).$_FILES['seo_icon']['name'];
+		move_uploaded_file($gecici_isim,"../resimler/$dosya_ismi");
+	}
 	$sorgu=$db->prepare("INSERT INTO seo SET
 		seo_baslik=:seo_baslik,
 		seo_aciklama=:seo_aciklama,
 		seo_anahtar_1=:seo_anahtar_1,
 		seo_anahtar_2=:seo_anahtar_2,
-		seo_anahtar_3=:seo_anahtar_3
+		seo_anahtar_3=:seo_anahtar_3,
+		dosya_ismi=:dosya_ismi
 		");
 
 	$sonuc=$sorgu->execute(array(
@@ -101,22 +107,9 @@ if (isset($_POST['seoveriekle'])) {
 		'seo_anahtar_1' => $_POST['seo_anahtar_1'],
 		'seo_anahtar_2' => $_POST['seo_anahtar_2'],
 		'seo_anahtar_3' => $_POST['seo_anahtar_3'],
+		'dosya_ismi' => $_POST['dosya_ismi'],
 	));
-
-	if ($_FILES['seo_icon']['error']=="0") { 
-		$gecici_isim=$_FILES['seo_icon']['tmp_name'];
-		$dosya_ismi=rand(100000,999999).$_FILES['seo_icon']['name'];
-		move_uploaded_file($gecici_isim,"../resimler/$dosya_ismi");
 	
-		$sorgu=$db->prepare("INSERT INTO seo SET
-			seo_icon=:seo_icon
-			");
-	
-		$sonuc=$sorgu->execute(array(
-			'seo_icon' => $dosya_ismi,
-		));
-	}
-		
 	if ($sonuc) {
 		header("location:../seo-veri-ekle.php?durum=seo-islem-basarili");
 	} else {

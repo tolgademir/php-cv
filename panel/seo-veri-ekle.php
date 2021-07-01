@@ -37,8 +37,7 @@
                 <div class="col-md-7 col-lg-5">
                     <div class="login-wrap p-4 p-md-5">
 
-                        <form action="islemler/data-update.php" method="POST" enctype="multipart/form-data"
-                            class="login-form">
+                        <form action="islemler/data-update.php" method="POST" enctype="multipart/form-data" class="login-form">
 
                             <!-- Seo Veri Ekleme -->
 
