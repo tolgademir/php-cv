@@ -2,7 +2,7 @@
 
 # Used Technologies
 
-PHP
+PHP<br>
 HTML
 CSS (bootstrap) 
 JAVASCRİPT
