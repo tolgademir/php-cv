@@ -1,5 +1,9 @@
 # CV Website
 
+# Live
+
+Coming soon
+
 # Used Technologies
 
 · PHP<br>
