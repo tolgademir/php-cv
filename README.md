@@ -4,7 +4,7 @@
 
 · PHP<br>
 · HTML<br>
-· CSS (bootstrap,sass) <br>
+· CSS<br>
 · JAVASCRİPT<br>
 · MYSQL<br>
 
