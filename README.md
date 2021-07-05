@@ -14,4 +14,4 @@ Coming soon
 · JAVASCRİPT<br>
 · MYSQL<br>
 
-![cv-ss](https://user-images.githubusercontent.com/40199261/124390627-2a514700-dcf5-11eb-80e6-decefd427e3e.png)
+![cv](https://user-images.githubusercontent.com/40199261/124458736-0265f000-dd96-11eb-9e2e-f18b4d2d4228.png)
