@@ -4,7 +4,7 @@ v.1 : About us section added, Minor edits made.
 
 # Live
 
-Coming soon
+Coming soon.
 
 # Used Technologies
 
