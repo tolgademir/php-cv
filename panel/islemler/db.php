@@ -34,4 +34,8 @@ $sorgu=$db->prepare("SELECT * FROM sosyal_medya");
 $sorgu->execute();
 $sosyal_medya=$sorgu->fetch(PDO::FETCH_ASSOC);
 
+$sorgu=$db->prepare("SELECT * FROM hakkimda");
+$sorgu->execute();
+$hakkimda=$sorgu->fetch(PDO::FETCH_ASSOC);
+
 ?>

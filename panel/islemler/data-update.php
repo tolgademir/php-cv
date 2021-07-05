@@ -247,4 +247,70 @@ if (isset($_POST['sosyal_medya_veri_ekleme'])) {
 
 // SOSYAL MEDYA
 
+// HAKKIMDA
+
+// HAKKIMDA VERİ GÜNCELLEME
+
+if (isset($_POST['hakkimda_veri_guncelleme'])) {
+	if ($_FILES['hakkimda_resim']['error']=="0") { 
+		$gecici_isim=$_FILES['hakkimda_resim']['tmp_name'];
+		$dosya_ismi=rand(100000,999999).$_FILES['hakkimda_resim']['name'];
+		move_uploaded_file($gecici_isim,"../resimler/$dosya_ismi");
+	}
+	$sorgu=$db->prepare("UPDATE hakkimda SET 
+		hakkimda_baslik=:hakkimda_baslik,
+		hakkimda_aciklama=:hakkimda_aciklama,
+		hakkimda_resim=:hakkimda_resim
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'hakkimda_baslik' => $_POST['hakkimda_baslik'],
+		'hakkimda_aciklama' => $_POST['hakkimda_aciklama'],
+		'hakkimda_resim' => $dosya_ismi
+	));
+
+	if ($sonuc) {
+		header("location:../hakkimda.php?durum=hakkimda-veri-guncelleme-islemi-basarili");
+	} else {
+		header("location:../hakkimda.php?durum=hakkimda-guncelleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// HAKKIMDA VERİ GÜNCELLEME
+
+// HAKKIMDA VERİ EKLEME
+
+if (isset($_POST['hakkimda_veri_ekleme'])) {
+	if ($_FILES['hakkimda_resim']['error']=="0") { 
+		$gecici_isim=$_FILES['hakkimda_resim']['tmp_name'];
+		$dosya_ismi=rand(100000,999999).$_FILES['hakkimda_resim']['name'];
+		move_uploaded_file($gecici_isim,"../resimler/$dosya_ismi");
+	}
+	$sorgu=$db->prepare("INSERT INTO hakkimda SET
+		hakkimda_baslik=:hakkimda_baslik,
+		hakkimda_aciklama=:hakkimda_aciklama,
+		hakkimda_resim=:hakkimda_resim
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'hakkimda_baslik' => $_POST['hakkimda_baslik'],
+		'hakkimda_aciklama' => $_POST['hakkimda_aciklama'],
+		'hakkimda_resim' => $dosya_ismi
+	));
+
+	if ($sonuc) {
+		header("location:../hakkimda.php?durum=hakkimda-veri-ekleme-islemi-basarili");
+	} else {
+		header("location:../hakkimda.php?durum=hakkimda-veri-ekleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// HAKKIMDA VERİ EKLEME
+
+// HAKKIMDA
+
 ?>

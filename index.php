@@ -56,12 +56,12 @@
             <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
               <li class="nav-item active">
                 <a class="nav-link" href="#hero-area">
-                  Home
+                  Ana Sayfa
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">
-                  About
+                  Hakkımda
                 </a>
               </li>
               <li class="nav-item">
@@ -91,10 +91,10 @@
         <!-- Mobile Menu Start -->
         <ul class="onepage-nev mobile-menu">
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">Ana Sayfa</a>
           </li>
           <li>
-            <a href="#about">about</a>
+            <a href="#about">Hakkımda</a>
           </li>
           <li>
             <a href="#services">Services</a>
@@ -155,17 +155,17 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
-              <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="">
+              <img class="img-fluid" src="panel/resimler/<?php echo $hakkimda['hakkimda_resim'] ?>" alt="">
             </div>
           </div> 
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
-              <h3>Hi Guys!</h3>
-              <p>Est diam venenatis arcu lacus ad. Duis quis eros. Cursus et rutrum eleifend sollicitudin lacinia justo id turpis. Nec convallis integer. Odio eget duis. Nulla aenean et. Blandit varius sollicitudin. Pellentesque leo primis neque urna magnis. Elit ut sollicitudin. Et est a nam dolores eget itaque sagittis et parturient duis est eleifend sociis rutrum odio viverra integer.</p>
+              <h3> <?php echo $hakkimda['hakkimda_baslik'] ?> </h3>
+              <p> <?php echo $hakkimda['hakkimda_aciklama'] ?> </p>
               <div class="about-profile">
                 <ul class="admin-profile">
-                  <li><span class="pro-title"> Name </span> <span class="pro-detail">Tom Saulnier</span></li>
-                  <li><span class="pro-title"> Age </span> <span class="pro-detail">25 Years</span></li>
+                  <li><span class="pro-title"> Ad ve Soyad </span> <span class="pro-detail">Tom Saulnier</span></li>
+                  <li><span class="pro-title"> Yaş </span> <span class="pro-detail">25 Years</span></li>
                   <li><span class="pro-title"> Experience </span> <span class="pro-detail">4 Years</span></li>
                   <li><span class="pro-title"> Country </span> <span class="pro-detail">USA</span></li>
                   <li><span class="pro-title"> Location </span> <span class="pro-detail">San Francisco, CA</span></li>

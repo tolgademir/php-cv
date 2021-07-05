@@ -530,7 +530,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-top: 15px;
   margin-bottom: 15px;
   line-height: 40px;
-  text-transform: uppercase;
   cursor: pointer;
   background: transparent;
   -webkit-transition: all 0.3s ease-in-out;
