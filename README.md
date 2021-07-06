@@ -2,6 +2,8 @@
 
 v.1 : About us section added, minor edits made.
 
+v.1.1 : Adding services section.
+
 # Live
 
 Coming soon.
