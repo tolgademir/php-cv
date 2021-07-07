@@ -936,7 +936,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .services-item .services-content h3 a {
   font-size: 18px;
-  text-transform: uppercase;
   color: #666;
 }
 

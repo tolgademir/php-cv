@@ -347,11 +347,27 @@ if (isset($_POST['hakkimda_veri_ekleme'])) {
 
 if (isset($_POST['hizmetler_veri_guncelleme'])) {
 	$sorgu=$db->prepare("UPDATE hizmetler SET 
-		hizmetler_baslik=:hizmetler_baslik
+		hizmetler_baslik=:hizmetler_baslik,
+		hizmetler_baslik_1=:hizmetler_baslik_1,
+		hizmetler_baslik_2=:hizmetler_baslik_2,
+		hizmetler_baslik_3=:hizmetler_baslik_3,
+		hizmetler_baslik_4=:hizmetler_baslik_4,
+		hizmetler_aciklama_1=:hizmetler_aciklama_1,
+		hizmetler_aciklama_2=:hizmetler_aciklama_2,
+		hizmetler_aciklama_3=:hizmetler_aciklama_3,
+		hizmetler_aciklama_4=:hizmetler_aciklama_4
 		");
 
 	$sonuc=$sorgu->execute(array(
 		'hizmetler_baslik' => $_POST['hizmetler_baslik'],
+		'hizmetler_baslik_1' => $_POST['hizmetler_baslik_1'],
+		'hizmetler_baslik_2' => $_POST['hizmetler_baslik_2'],
+		'hizmetler_baslik_3' => $_POST['hizmetler_baslik_3'],
+		'hizmetler_baslik_4' => $_POST['hizmetler_baslik_4'],
+		'hizmetler_aciklama_1' => $_POST['hizmetler_aciklama_1'],
+		'hizmetler_aciklama_2' => $_POST['hizmetler_aciklama_2'],
+		'hizmetler_aciklama_3' => $_POST['hizmetler_aciklama_3'],
+		'hizmetler_aciklama_4' => $_POST['hizmetler_aciklama_4'],
 	));
 
 	if ($sonuc) {
@@ -369,11 +385,28 @@ if (isset($_POST['hizmetler_veri_guncelleme'])) {
 
 if (isset($_POST['hizmetler_veri_ekleme'])) {
 	$sorgu=$db->prepare("INSERT INTO hizmetler SET
-		hizmetler_baslik=:hizmetler_baslik
+		hizmetler_baslik=:hizmetler_baslik,
+		hizmetler_baslik_1=:hizmetler_baslik_1,
+		hizmetler_baslik_2=:hizmetler_baslik_2,
+		hizmetler_baslik_3=:hizmetler_baslik_3,
+		hizmetler_baslik_4=:hizmetler_baslik_4,
+		hizmetler_aciklama_1=:hizmetler_aciklama_1,
+		hizmetler_aciklama_2=:hizmetler_aciklama_2,
+		hizmetler_aciklama_3=:hizmetler_aciklama_3,
+		hizmetler_aciklama_4=:hizmetler_aciklama_4
+		
 		");
 
 	$sonuc=$sorgu->execute(array(
 		'hizmetler_baslik' => $_POST['hizmetler_baslik'],
+		'hizmetler_baslik_1' => $_POST['hizmetler_baslik_1'],
+		'hizmetler_baslik_2' => $_POST['hizmetler_baslik_2'],
+		'hizmetler_baslik_3' => $_POST['hizmetler_baslik_3'],
+		'hizmetler_baslik_4' => $_POST['hizmetler_baslik_4'],
+		'hizmetler_aciklama_1' => $_POST['hizmetler_aciklama_1'],
+		'hizmetler_aciklama_2' => $_POST['hizmetler_aciklama_2'],
+		'hizmetler_aciklama_3' => $_POST['hizmetler_aciklama_3'],
+		'hizmetler_aciklama_4' => $_POST['hizmetler_aciklama_4'],
 	));
 
 	if ($sonuc) {

@@ -52,6 +52,46 @@
                                 <input type="text" class="form-control rounded-left" name="hizmetler_baslik" id="hizmetler_baslik" value="<?php echo $hizmetler["hizmetler_baslik"] ?>">
                             </div>
 
+                            <div class="form-group">
+                                <p>Hizmetler Başlık 1</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_baslik_1" id="hizmetler_baslik_1" value="<?php echo $hizmetler["hizmetler_baslik_1"] ?>">
+                            </div>
+                            
+                            <div class="form-group">
+                                <p>Hizmetler Başlık 2</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_baslik_2" id="hizmetler_baslik_2" value="<?php echo $hizmetler["hizmetler_baslik_2"] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Başlık 3</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_baslik_3" id="hizmetler_baslik_3" value="<?php echo $hizmetler["hizmetler_baslik_3"] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Başlık 4</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_baslik_4" id="hizmetler_baslik_4" value="<?php echo $hizmetler["hizmetler_baslik_4"] ?>">
+                            </div>
+                            
+                            <div class="form-group">
+                                <p>Hizmetler Açıklama 1</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_aciklama_1" id="hizmetler_aciklama_1" value="<?php echo $hizmetler["hizmetler_aciklama_1"] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Açıklama 2</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_aciklama_2" id="hizmetler_aciklama_2" value="<?php echo $hizmetler["hizmetler_aciklama_2"] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Açıklama 3</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_aciklama_3" id="hizmetler_aciklama_3" value="<?php echo $hizmetler["hizmetler_aciklama_3"] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Açıklama 4</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_aciklama_4" id="hizmetler_aciklama_4" value="<?php echo $hizmetler["hizmetler_aciklama_4"] ?>">
+                            </div>
+
                             <!-- Hizmetler Veri Güncelleme -->
 
                             <!-- Veri Güncelleme -->
@@ -87,6 +127,46 @@
                             <div class="form-group">
                                 <p>Hizmetler Başlık</p>
                                 <input type="text" class="form-control rounded-left" name="hizmetler_baslik" id="hizmetler_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Başlık 1</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_baslik_1" id="hizmetler_baslik_1">
+                            </div>
+                            
+                            <div class="form-group">
+                                <p>Hizmetler Başlık 2</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_baslik_2" id="hizmetler_baslik_2">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Başlık 3</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_baslik_3" id="hizmetler_baslik_3">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Başlık 4</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_baslik_4" id="hizmetler_baslik_4">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Açıklama 1</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_aciklama_1" id="hizmetler_aciklama_1">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Açıklama 2</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_aciklama_2" id="hizmetler_aciklama_2">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Açıklama 3</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_aciklama_3" id="hizmetler_aciklama_3">
+                            </div>
+
+                            <div class="form-group">
+                                <p>Hizmetler Açıklama 4</p>
+                                <input type="text" class="form-control rounded-left" name="hizmetler_aciklama_4" id="hizmetler_aciklama_4">
                             </div>
 
                             <!-- Hizmetler Veri Ekleme -->

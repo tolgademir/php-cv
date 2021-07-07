@@ -198,11 +198,11 @@
           <div class="col-md-6 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.3s">
               <div class="icon">
-                <i class="icon-grid"></i>
+                <i class="icon-user"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Front-end Development</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                <h3><a href="#"> <?php echo $hizmetler["hizmetler_baslik_1"] ?> </a></h3>
+                <p> <?php echo $hizmetler["hizmetler_aciklama_1"] ?> </p>
               </div>
             </div>
           </div>
@@ -213,8 +213,8 @@
                 <i class="icon-layers"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Graphic Design</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                <h3><a href="#"> <?php echo $hizmetler["hizmetler_baslik_2"] ?> </a></h3>
+                <p> <?php echo $hizmetler["hizmetler_aciklama_2"] ?> </p>
               </div>
             </div>
           </div>
@@ -225,8 +225,8 @@
                 <i class="icon-briefcase"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Business Branding</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                <h3><a href="#"> <?php echo $hizmetler["hizmetler_baslik_3"] ?> </a></h3>
+                <p> <?php echo $hizmetler["hizmetler_aciklama_3"] ?> </p>
               </div>
             </div>
           </div>
@@ -234,11 +234,11 @@
           <div class="col-md-6 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon">
-                <i class="icon-bubbles"></i>
+                <i class="icon-diamond"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Consultancy</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+                <h3><a href="#"> <?php echo $hizmetler["hizmetler_baslik_4"] ?> </a></h3>
+                <p> <?php echo $hizmetler["hizmetler_aciklama_4"] ?> </p>
               </div>
             </div>
           </div>
