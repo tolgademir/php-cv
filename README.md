@@ -4,7 +4,7 @@ v.1 : About us section added, minor edits made.
 
 v.1.1 : Adding services section.
 
-v.1.2 : 
+v.1.2 : The all parts of the services have been added.
 
 # Live
 
@@ -18,4 +18,4 @@ Coming soon.
 · JAVASCRİPT<br>
 · MYSQL<br>
 
-# Project Screenshot v.1.2
+# Project Screenshot v.1.2 
