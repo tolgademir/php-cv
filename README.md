@@ -18,4 +18,6 @@ Coming soon.
 · JAVASCRİPT<br>
 · MYSQL<br>
 
-# Project Screenshot v.1.2 
+# Project Screenshot v.1.2
+![v 1 2](https://user-images.githubusercontent.com/40199261/124811273-f7b08400-df6a-11eb-94e0-28400dda13f7.png)
+ 
