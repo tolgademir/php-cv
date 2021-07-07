@@ -19,6 +19,3 @@ Coming soon.
 · MYSQL<br>
 
 # Project Screenshot v.1.2
-
-![v 1 2](https://user-images.githubusercontent.com/40199261/124795585-db0b5080-df58-11eb-859b-b799a50658bf.png)
-
