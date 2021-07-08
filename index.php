@@ -1,10 +1,7 @@
-<?php include "panel/islemler/db.php"; ?>
-
+<?php include "panel/islemler/db.php" ?>
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -37,7 +34,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
   </head>
-
   <body>
 
     <!-- Header Area wrapper Starts -->
@@ -152,12 +148,9 @@
       <!-- Hero Area End -->
 
     </header>
-
     <!-- Header Area wrapper End -->
 
-
     <!-- About Section Start -->
-
     <section id="about" class="section-padding">
       <div class="container">
         <div class="row">
@@ -168,15 +161,15 @@
           </div> 
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
-              <h3> <?php echo $hakkimda['hakkimda_baslik'] ?> </h3>
+            <h3> <?php echo $hakkimda['hakkimda_baslik'] ?> </h3>
               <p> <?php echo $hakkimda['hakkimda_aciklama'] ?> </p>
               <div class="about-profile">
                 <ul class="admin-profile">
-                  <li><span class="pro-title"> Hakkımda Bilgi 1 </span> <span class="pro-detail"> <?php echo $hakkimda["hakkimizda_bilgi_1"]?> </span></li>
-                  <li><span class="pro-title"> Hakkımda Bilgi 2 </span> <span class="pro-detail"> <?php echo $hakkimda["hakkimizda_bilgi_2"]?> </span></li>
-                  <li><span class="pro-title"> Hakkımda Bilgi 3 </span> <span class="pro-detail"> <?php echo $hakkimda["hakkimizda_bilgi_3"]?> </span></li>
-                  <li><span class="pro-title"> Hakkımda Bilgi 4 </span> <span class="pro-detail"> <?php echo $hakkimda["hakkimizda_bilgi_4"]?> </span></li>
-                  <li><span class="pro-title"> Hakkımda Bilgi 5 </span> <span class="pro-detail"> <?php echo $hakkimda["hakkimizda_bilgi_5"]?> </span></li>
+                  <li><span class="pro-title"> Bilgi 1 </span> <span class="pro-detail"> <?php echo $hakkimda["hakkimizda_bilgi_1"]?> </span></li>
+                  <li><span class="pro-title"> Bilgi 2 </span> <span class="pro-detail"> <?php echo $hakkimda["hakkimizda_bilgi_2"]?> </span></li>
+                  <li><span class="pro-title"> Bilgi 3 </span> <span class="pro-detail"> <?php echo $hakkimda["hakkimizda_bilgi_3"]?> </span></li>
+                  <li><span class="pro-title"> Bilgi 4 </span> <span class="pro-detail"> <?php echo $hakkimda["hakkimizda_bilgi_4"]?> </span></li>
+                  <li><span class="pro-title"> Bilgi 5 </span> <span class="pro-detail"> <?php echo $hakkimda["hakkimizda_bilgi_5"]?> </span></li>
                 </ul>
               </div>
               <a href="#" class="btn btn-common"><i class="icon-paper-clip"></i> CV İndir</a>
@@ -186,11 +179,10 @@
         </div>
       </div>
     </section>
-
     <!-- About Section End -->
 
-    <!-- Services Section Start -->
-    <section id="services" class="services section-padding">
+     <!-- Services Section Start -->
+     <section id="services" class="services section-padding">
       <h2 class="section-title wow flipInX" data-wow-delay="0.4s"> <?php echo $hizmetler["hizmetler_baslik"] ?> </h2>
       <div class="container">
         <div class="row">
@@ -256,8 +248,9 @@
               <ul class="timeline">
                 <li>
                   <i class="icon-graduation"></i>
-                  <h2 class="timelin-title">Education</h2>
+                  <h2 class="timelin-title"><?php echo $egitim["egitim_baslik"]?></h2>
                 </li>
+
                 <li>
                   <div class="content-text">
                     <h3 class="line-title">Bsc In CSE - Yale University</h3>
@@ -265,6 +258,15 @@
                     <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
                   </div>
                 </li>
+
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Bsc In CSE - Yale University</h3>
+                    <span>2012 - 2016</span>
+                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                </li>
+
                 <li>
                   <div class="content-text">
                     <h3 class="line-title">Higher Secondary School - San Francisco College</h3>
@@ -289,6 +291,7 @@
                   <i class="icon-briefcase"></i>
                   <h2 class="timelin-title">Experience</h2>
                 </li>
+
                 <li>
                   <div class="content-text">
                     <h3 class="line-title">Art Director - Tesla Inc.</h3>
@@ -296,6 +299,15 @@
                     <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
                   </div>
                 </li>
+
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Art Director - Tesla Inc.</h3>
+                    <span>Jan 2018 - Present</span>
+                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                </li>
+
                 <li>
                   <div class="content-text">
                     <h3 class="line-title">UX/UI Designer - Samsung</h3>

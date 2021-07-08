@@ -42,4 +42,8 @@ $sorgu=$db->prepare("SELECT * FROM hizmetler");
 $sorgu->execute();
 $hizmetler=$sorgu->fetch(PDO::FETCH_ASSOC);
 
+$sorgu=$db->prepare("SELECT * FROM egitim");
+$sorgu->execute();
+$egitim=$sorgu->fetch(PDO::FETCH_ASSOC);
+
 ?>

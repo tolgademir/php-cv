@@ -394,7 +394,6 @@ if (isset($_POST['hizmetler_veri_ekleme'])) {
 		hizmetler_aciklama_2=:hizmetler_aciklama_2,
 		hizmetler_aciklama_3=:hizmetler_aciklama_3,
 		hizmetler_aciklama_4=:hizmetler_aciklama_4
-		
 		");
 
 	$sonuc=$sorgu->execute(array(
@@ -421,5 +420,53 @@ if (isset($_POST['hizmetler_veri_ekleme'])) {
 // HİZMETLER VERİ EKLEME
 
 // HİZMETLER
+
+// EĞİTİM
+
+// EĞİTİM VERİ GÜNCELLEME
+
+if (isset($_POST['egitim_veri_guncelleme'])) {
+	$sorgu=$db->prepare("UPDATE egitim SET
+	    egitim_baslik=:egitim_baslik
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'egitim_baslik' => $_POST['egitim_baslik'],
+	));
+
+	if ($sonuc) {
+		header("location:../egitim.php?durum=egitim-veri-guncelleme-islemi-basarili");
+	} else {
+		header("location:../egitim.php?durum=egitim-veri-guncelleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// EĞİTİM VERİ GÜNCELLEME
+
+// EĞİTİM VERİ EKLEME
+
+if (isset($_POST['egitim_veri_ekleme'])) {
+	$sorgu=$db->prepare("INSERT INTO egitim SET
+	    egitim_baslik=:egitim_baslik
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'egitim_baslik' => $_POST['egitim_baslik'],
+	));
+
+	if ($sonuc) {
+		header("location:../egitim.php?durum=egitim-veri-ekleme-islemi-basarili");
+	} else {
+		header("location:../egitim.php?durum=egitim-veri-ekleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// EĞİTİM VERİ EKLEME
+
+// EĞİTİM
 
 ?>

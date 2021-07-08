@@ -28,6 +28,7 @@
         <li><a class="" href="./sosyal-medya.php">Sosyal Medya</a></li>
         <li><a class="" href="./hakkimda.php">Hakkımda</a></li>
         <li><a class="" href="./hizmetler.php">Hizmetler</a></li>
+        <li><a class="" href="./egitim.php">Eğitim</a></li>
         <li><a class="" href="../index.php" target="_blank">Siteyi Görüntüle</a></li>
     </ul>
 
