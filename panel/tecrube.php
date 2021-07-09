@@ -24,12 +24,12 @@
     <ul>
         <li><a class="" href="./index.php">Yönetici Paneli</a></li>
         <li><a class="" href="./seo.php">Seo</a></li>
-        <li><a class="active" href="./ust-kisim.php">Üst Kısım</a></li>
+        <li><a class="" href="./ust-kisim.php">Üst Kısım</a></li>
         <li><a class="" href="./sosyal-medya.php">Sosyal Medya</a></li>
         <li><a class="" href="./hakkimda.php">Hakkımda</a></li>
         <li><a class="" href="./hizmetler.php">Hizmetler</a></li>
         <li><a class="" href="./egitim.php">Eğitim</a></li>
-        <li><a class="" href="./tecrube.php">Tecrübe</a></li>
+        <li><a class="active" href="./tecrube.php">Tecrübe</a></li>
         <li><a class="" href="../index.php" target="_blank">Siteyi Görüntüle</a></li>
     </ul>
 
@@ -43,40 +43,25 @@
                     <div class="login-wrap p-4 p-md-5">
                         <form action="islemler/data-update.php" method="POST" enctype="multipart/form-data" class="login-form">
 
-                            <!-- Üst Kısım Veri Güncelleme -->
+                            <!-- Tecrübe Veri Güncelleme -->
                             
                             <br>
-                            <h5 class="panel">Üst Kısım Veri Güncelleme </h5>
+                            <h5 class="panel">Tecrübe Veri Güncelleme</h5>
                             <br>
                         
                             <div class="form-group">
-                                <p> Üst Kısım Başlık </p>
-                                <input type="text" class="form-control rounded-left" name="ust_kisim_baslik" id="ust_kisim_baslik" value="<?php echo $ust_kisim['ust_kisim_baslik'] ?>">
+                                <p> Tecrübe Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_baslik" id="tecrube_baslik" value="<?php echo $tecrube['tecrube_baslik'] ?>">
                             </div>
 
-                            <div class="form-group">
-                                <p> Üst Kısım Açıklama </p>
-                                <input type="text" class="form-control rounded-left" name="ust_kisim_aciklama" id="ust_kisim_aciklama" value="<?php echo $ust_kisim['ust_kisim_aciklama'] ?>">
-                            </div>
-
-                            <div class="form-group">
-                                <p> Üst Kısım Buton Yazısı </p>
-                                <input type="text" class="form-control rounded-left" name="ust_kisim_buton_yazisi" id="ust_kisim_buton_yazisi" value="<?php echo $ust_kisim['ust_kisim_buton_yazisi'] ?>">
-                            </div>
-
-                            <div class="form-group">
-                                <p> Üst Kısım Buton Linki </p>
-                                <input type="text" class="form-control rounded-left" name="ust_kisim_buton_linki" id="ust_kisim_buton_linki" value="<?php echo $ust_kisim['ust_kisim_buton_linki'] ?>">
-                            </div>
-
-                            <!-- Üst Kısım Veri Güncelleme -->
+                            <!-- Tecrübe Veri Güncelleme -->
 
                             <!-- Veri Güncelleme -->
 
                             <br>
                             <br>
                             <div class="form-group">
-                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="ust_kisim_veri_guncelleme">Güncelle</button>
+                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="tecrube_veri_guncelleme">Güncelle</button>
                             </div>
 
                             <!-- Veri Güncelleme -->
@@ -95,43 +80,29 @@
                     <div class="login-wrap p-4 p-md-5">
                         <form action="islemler/data-update.php" method="POST" enctype="multipart/form-data" class="login-form">
 
-                            <!-- Üst Kısım Veri Ekleme -->
+                            <!-- Tecrübe Veri Ekleme -->
                             
                             <br>
-                            <h5 class="panel">Üst Kısım Veri Ekleme</h5>
+                            <h5 class="panel">Tecrübe Veri Ekleme</h5>
                             <br>
                         
                             <div class="form-group">
-                                <p> Üst Kısım Başlık </p>
-                                <input type="text" class="form-control rounded-left" name="ust_kisim_baslik" id="ust_kisim_baslik">
+                                <p> Tecrübe Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_baslik" id="tecrube_baslik">
                             </div>
 
-                            <div class="form-group">
-                                <p> Üst Kısım Açıklama </p>
-                                <input type="text" class="form-control rounded-left" name="ust_kisim_aciklama" id="ust_kisim_aciklama">
-                            </div>
-
-                            <div class="form-group">
-                                <p> Üst Kısım Buton Yazısı </p>
-                                <input type="text" class="form-control rounded-left" name="ust_kisim_buton_yazisi" id="ust_kisim_buton_yazisi">
-                            </div>
-
-                            <div class="form-group">
-                                <p> Üst Kısım Buton Linki </p>
-                                <input type="text" class="form-control rounded-left" name="ust_kisim_buton_linki" id="ust_kisim_buton_linki">
-                            </div>
-
-                            <!-- Üst Kısım Veri Ekleme -->
+                            <!-- Tecrübe Veri Ekleme -->
 
                             <!-- Veri Güncelleme -->
 
                             <br>
                             <br>
                             <div class="form-group">
-                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="ust_kisim_veri_ekleme">Ekle</button>
+                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="tecrube_veri_ekleme">Ekle</button>
                             </div>
 
                             <!-- Veri Güncelleme -->
+
                         </form>
                     </div>
                 </div>

@@ -46,4 +46,8 @@ $sorgu=$db->prepare("SELECT * FROM egitim");
 $sorgu->execute();
 $egitim=$sorgu->fetch(PDO::FETCH_ASSOC);
 
+$sorgu=$db->prepare("SELECT * FROM tecrube");
+$sorgu->execute();
+$tecrube=$sorgu->fetch(PDO::FETCH_ASSOC);
+
 ?>

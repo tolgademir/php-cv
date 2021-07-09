@@ -469,4 +469,52 @@ if (isset($_POST['egitim_veri_ekleme'])) {
 
 // EĞİTİM
 
+// TECRÜBE
+
+// TECRÜBE VERİ GÜNCELLEME
+
+if (isset($_POST['tecrube_veri_guncelleme'])) {
+	$sorgu=$db->prepare("UPDATE tecrube SET
+	    tecrube_baslik=:tecrube_baslik
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'tecrube_baslik' => $_POST['tecrube_baslik'],
+	));
+
+	if ($sonuc) {
+		header("location:../tecrube.php?durum=tecrube-veri-guncelleme-islemi-basarili");
+	} else {
+		header("location:../tecrube.php?durum=tecrube-veri-guncelleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// TECRÜBE VERİ GÜNCELLEME
+
+// TECRÜBE VERİ EKLEME
+
+if (isset($_POST['tecrube_veri_ekleme'])) {
+	$sorgu=$db->prepare("INSERT INTO tecrube SET
+	    tecrube_baslik=:tecrube_baslik
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'tecrube_baslik' => $_POST['tecrube_baslik'],
+	));
+
+	if ($sonuc) {
+		header("location:../tecrube.php?durum=tecrube-veri-ekleme-islemi-basarili");
+	} else {
+		header("location:../tecrube.php?durum=tecrube-veri-ekleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// TECRÜBE VERİ EKLEME
+
+// TECRÜBE
+
 ?>

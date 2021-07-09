@@ -289,7 +289,7 @@
               <ul class="timeline">
                 <li>
                   <i class="icon-briefcase"></i>
-                  <h2 class="timelin-title">Experience</h2>
+                  <h2 class="timelin-title"> <?php echo $tecrube["tecrube_baslik"] ?> </h2>
                 </li>
 
                 <li>
