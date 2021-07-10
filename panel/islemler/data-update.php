@@ -517,4 +517,52 @@ if (isset($_POST['tecrube_veri_ekleme'])) {
 
 // TECRÜBE
 
+// ALT KISIM 
+
+// ALT KISIM VERİ GÜNCELLEME
+
+if (isset($_POST['alt_kisim_metin_veri_guncelleme'])) {
+	$sorgu=$db->prepare("UPDATE alt_kisim SET
+	    alt_kisim_metin=:alt_kisim_metin
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'alt_kisim_metin' => $_POST['alt_kisim_metin'],
+	));
+
+	if ($sonuc) {
+		header("location:../alt-kisim.php?durum=alt-kisim-veri-guncelleme-islemi-basarili");
+	} else {
+		header("location:../alt-kisim.php?durum=alt-kisim-veri-guncelleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// ALT KISIM VERİ GÜNCELLEME
+
+// ALT KISIM VERİ EKLEME
+
+if (isset($_POST['alt_kisim_metin_veri_ekleme'])) {
+	$sorgu=$db->prepare("INSERT INTO alt_kisim SET
+	    alt_kisim_metin=:alt_kisim_metin
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'alt_kisim_metin' => $_POST['alt_kisim_metin'],
+	));
+
+	if ($sonuc) {
+		header("location:../alt-kisim.php?durum=alt-kisim-veri-ekleme-islemi-basarili");
+	} else {
+		header("location:../alt-kisim.php?durum=alt-kisim-veri-ekleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// ALT KISIM VERİ EKLEME
+
+// ALT KISIM 
+
 ?>

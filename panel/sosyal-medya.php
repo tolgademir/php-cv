@@ -30,6 +30,7 @@
         <li><a class="" href="./hizmetler.php">Hizmetler</a></li>
         <li><a class="" href="./egitim.php">Eğitim</a></li>
         <li><a class="" href="./tecrube.php">Tecrübe</a></li>
+        <li><a class="" href="./alt-kisim.php">Alt Kısım</a></li>
         <li><a class="" href="../index.php" target="_blank">Siteyi Görüntüle</a></li>
     </ul>
 

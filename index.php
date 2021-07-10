@@ -594,22 +594,19 @@
             <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
               <ul class="social-icon">
                 <li>
-                  <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
+                  <a class="facebook" href="<?php echo $sosyal_medya["facebook"] ?>"> <i class="icon-social-facebook"></i></a>
                 </li>
                 <li>
-                  <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
+                  <a class="twitter" href="<?php echo $sosyal_medya["twitter"] ?>"><i class="icon-social-twitter"></i></a>
                 </li>
                 <li>
-                  <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
+                  <a class="instagram" href="<?php echo $sosyal_medya["instagram"] ?>"><i class="icon-social-instagram"></i></a>
                 </li>
                 <li>
-                  <a class="instagram" href="#"><i class="icon-social-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="instagram" href="#"><i class="icon-social-google"></i></a>
+                  <a class="linkedin" href="<?php echo $sosyal_medya["linkedin"] ?>"><i class="icon-social-linkedin"></i></a>
                 </li>
               </ul>
-              <p>Copyright © 2018 UIdeck All Right Reserved</p>
+              <p> <?php echo $alt_kisim["alt_kisim_metin"] ?> </p>
             </div>
           </div>
         </div>

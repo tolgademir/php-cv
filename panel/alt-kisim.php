@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/panel/panel.css">
 
     <ul>
-        <li><a class="active" href="./index.php">Yönetici Paneli</a></li>
+        <li><a class="" href="./index.php">Yönetici Paneli</a></li>
         <li><a class="" href="./seo.php">Seo</a></li>
         <li><a class="" href="./ust-kisim.php">Üst Kısım</a></li>
         <li><a class="" href="./sosyal-medya.php">Sosyal Medya</a></li>
@@ -30,7 +30,7 @@
         <li><a class="" href="./hizmetler.php">Hizmetler</a></li>
         <li><a class="" href="./egitim.php">Eğitim</a></li>
         <li><a class="" href="./tecrube.php">Tecrübe</a></li>
-        <li><a class="" href="./alt-kisim.php">Alt Kısım</a></li>
+        <li><a class="active" href="./alt-kisim.php">Alt Kısım</a></li>
         <li><a class="" href="../index.php" target="_blank">Siteyi Görüntüle</a></li>
     </ul>
 
@@ -44,42 +44,65 @@
                     <div class="login-wrap p-4 p-md-5">
                         <form action="islemler/data-update.php" method="POST" enctype="multipart/form-data" class="login-form">
 
-                            <!-- Panel -->
+                            <!-- Alt Kısım Metin Veri Güncelleme -->
                             
                             <br>
-                            <h5 class="panel">Yönetici Paneli</h5>
+                            <h5 class="panel">Alt Kısım Metin Veri Güncelleme</h5>
                             <br>
+                        
+                            <div class="form-group">
+                                <p> Alt Kısım Metin </p>
+                                <input type="text" class="form-control rounded-left" name="alt_kisim_metin" id="alt_kisim_metin" value="<?php echo $alt_kisim['alt_kisim_metin'] ?>">
+                            </div>
+
+                            <!-- Alt Kısım Metin Veri Güncelleme -->
+
+                            <!-- Veri Güncelleme -->
+
+                            <br>
+                            <br>
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="alt_kisim_metin_veri_guncelleme">Güncelle</button>
+                            </div>
+
+                            <!-- Veri Güncelleme -->
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 col-lg-5">
+                    <div class="login-wrap p-4 p-md-5">
+                        <form action="islemler/data-update.php" method="POST" enctype="multipart/form-data" class="login-form">
+
+                            <!-- Alt Kısım Metin Veri Ekleme -->
                             
+                            <br>
+                            <h5 class="panel">Alt Kısım Metin Veri Ekleme</h5>
+                            <br>
+                        
                             <div class="form-group">
-                                <center>
-                                <img src="resimler/<?php echo $yonetici_paneli['yonetici_paneli_icon'] ?>" alt="" width="100" height="100">
-                                </center>
-                                <br>
-                                <p> Yönetici Paneli İcon </p>
-                                <input type="file" class="form-control rounded-left" name="yonetici_paneli_icon" id="yonetici_paneli_icon" value="<?php echo $yonetici_paneli['yonetici_paneli_icon'] ?>">
+                                <p> Alt Kısım Metin </p>
+                                <input type="text" class="form-control rounded-left" name="alt_kisim_metin" id="alt_kisim_metin">
                             </div>
 
-                            <div class="form-group">
-                                <p> Yönetici Paneli Başlık </p>
-                                <input type="text" class="form-control rounded-left" name="yonetici_paneli_baslik" id="yonetici_paneli_baslik" value="<?php echo $yonetici_paneli['yonetici_paneli_baslik'] ?>">
-                            </div>
+                            <!-- Alt Kısım Metin Veri Ekleme -->
 
-                            <div class="form-group">
-                                <p> Yönetici Paneli Açıklama </p>
-                                <input type="text" class="form-control rounded-left" name="yonetici_paneli_aciklama" id="yonetici_paneli_aciklama" value="<?php echo $yonetici_paneli['yonetici_paneli_aciklama'] ?>">
-                            </div>
-
-                            <!-- Panel -->
-
-                            <!-- Veri Gönderimi -->
+                            <!-- Veri Güncelleme -->
 
                             <br>
                             <br>
                             <div class="form-group">
-                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="yonetici_paneli">Kaydet</button>
+                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="alt_kisim_metin_veri_ekleme">Ekle</button>
                             </div>
 
-                            <!-- Veri Gönderimi -->
+                            <!-- Veri Güncelleme -->
 
                         </form>
                     </div>

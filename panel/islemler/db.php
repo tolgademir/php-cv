@@ -50,4 +50,8 @@ $sorgu=$db->prepare("SELECT * FROM tecrube");
 $sorgu->execute();
 $tecrube=$sorgu->fetch(PDO::FETCH_ASSOC);
 
+$sorgu=$db->prepare("SELECT * FROM alt_kisim");
+$sorgu->execute();
+$alt_kisim=$sorgu->fetch(PDO::FETCH_ASSOC);
+
 ?>
