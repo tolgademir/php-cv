@@ -2,7 +2,7 @@
 
 v.1.0 : About us section added, minor edits made.
 
-v.1.1 : Adding services section.
+v.1.1 : Services section has been added.
 
 v.1.2 : The all parts of the services have been added.
 
