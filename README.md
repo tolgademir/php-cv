@@ -10,7 +10,7 @@ v.1.3 : Training part has been added.
 
 v.1.4 : Experience part has been added.
 
-v.1.5 : 
+v.1.5 : The bottom part has been added.
 
 # Live
 
