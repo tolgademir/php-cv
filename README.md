@@ -12,7 +12,7 @@ v.1.4 : Experience part has been added.
 
 v.1.5 : The bottom part has been added.
 
-v.1.6 : 
+v.1.6 : The sub-sections of the education part have been added.
 
 # Live
 
