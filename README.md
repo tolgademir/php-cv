@@ -12,6 +12,8 @@ v.1.4 : Experience part has been added.
 
 v.1.5 : The bottom part has been added.
 
+v.1.6 : 
+
 # Live
 
 Coming soon.
@@ -24,8 +26,9 @@ Coming soon.
 · JAVASCRİPT<br>
 · MYSQL<br>
 
-# Project Screenshot v.1.5
-![v 1 5](https://user-images.githubusercontent.com/40199261/125190785-8c570280-e247-11eb-9e09-c11e576f7aa1.png)
+# Project Screenshot v.1.6
+![v 1 6](https://user-images.githubusercontent.com/40199261/125844972-caaafe83-7263-466d-88cd-24750fce3122.png)
+
 
 
 
