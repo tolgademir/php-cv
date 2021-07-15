@@ -253,34 +253,36 @@
 
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">Bsc In CSE - Yale University</h3>
-                    <span>2012 - 2016</span>
-                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                    <h3 class="line-title"><?php echo $egitim["egitim_1_baslik"]?></h3>
+                    <span><?php echo $egitim["egitim_1_tarih"]?></span>
+                    <p class="line-text"><?php echo $egitim["egitim_1_aciklama"]?></p>
                   </div>
                 </li>
 
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">Bsc In CSE - Yale University</h3>
-                    <span>2012 - 2016</span>
-                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                    <h3 class="line-title"><?php echo $egitim["egitim_2_baslik"]?></h3>
+                    <span><?php echo $egitim["egitim_2_tarih"]?></span>
+                    <p class="line-text"><?php echo $egitim["egitim_2_aciklama"]?></p>
                   </div>
                 </li>
 
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">Higher Secondary School - San Francisco College</h3>
-                    <span>2010 - 2012</span>
-                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                    <h3 class="line-title"><?php echo $egitim["egitim_3_baslik"]?></h3>
+                    <span><?php echo $egitim["egitim_3_tarih"]?></span>
+                    <p class="line-text"><?php echo $egitim["egitim_3_aciklama"]?></p>
                   </div>
                 </li>
+                
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">Secondary School - Labratory High School</h3>
-                    <span>2005 - 2010</span>
-                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                    <h3 class="line-title"><?php echo $egitim["egitim_4_baslik"]?></h3>
+                    <span><?php echo $egitim["egitim_4_tarih"]?></span>
+                    <p class="line-text"><?php echo $egitim["egitim_4_aciklama"]?></p>
                   </div>
                 </li>
+
               </ul>
             </div>
           </div>

@@ -55,6 +55,66 @@
                                 <input type="text" class="form-control rounded-left" name="egitim_baslik" id="egitim_baslik" value="<?php echo $egitim['egitim_baslik'] ?>">
                             </div>
 
+                            <div class="form-group">
+                                <p> Eğitim 1 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_1_baslik" id="egitim_1_baslik" value="<?php echo $egitim['egitim_1_baslik'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 1 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_1_tarih" id="egitim_1_tarih" value="<?php echo $egitim['egitim_1_tarih'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 1 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_1_aciklama" id="egitim_1_aciklama" value="<?php echo $egitim['egitim_1_aciklama'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 2 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_2_baslik" id="egitim_2_baslik" value="<?php echo $egitim['egitim_2_baslik'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 2 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_2_tarih" id="egitim_2_tarih" value="<?php echo $egitim['egitim_2_tarih'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 2 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_2_aciklama" id="egitim_2_aciklama" value="<?php echo $egitim['egitim_2_aciklama'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 3 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_3_baslik" id="egitim_3_baslik" value="<?php echo $egitim['egitim_3_baslik'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 3 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_3_tarih" id="egitim_3_tarih" value="<?php echo $egitim['egitim_3_tarih'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 3 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_3_aciklama" id="egitim_3_aciklama" value="<?php echo $egitim['egitim_3_aciklama'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 4 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_4_baslik" id="egitim_4_baslik" value="<?php echo $egitim['egitim_4_baslik'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 4 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_4_tarih" id="egitim_4_tarih" value="<?php echo $egitim['egitim_4_tarih'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 4 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_4_aciklama" id="egitim_4_aciklama" value="<?php echo $egitim['egitim_4_aciklama'] ?>">
+                            </div>
+
                             <!-- Eğitim Veri Güncelleme -->
 
                             <!-- Veri Güncelleme -->
@@ -90,6 +150,66 @@
                             <div class="form-group">
                                 <p> Eğitim Başlık </p>
                                 <input type="text" class="form-control rounded-left" name="egitim_baslik" id="egitim_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 1 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_1_baslik" id="egitim_1_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 1 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_1_tarih" id="egitim_1_tarih">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 1 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_1_aciklama" id="egitim_1_aciklama">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 2 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_2_baslik" id="egitim_2_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 2 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_2_tarih" id="egitim_2_tarih">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 2 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_2_aciklama" id="egitim_2_aciklama">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 3 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_3_baslik" id="egitim_3_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 3 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_3_tarih" id="egitim_3_tarih">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 3 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_3_aciklama" id="egitim_3_aciklama">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 4 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_4_baslik" id="egitim_4_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 4 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_4_tarih" id="egitim_4_tarih">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Eğitim 4 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="egitim_4_aciklama" id="egitim_4_aciklama">
                             </div>
 
                             <!-- Eğitim Veri Ekleme -->

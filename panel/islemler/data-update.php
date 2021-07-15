@@ -427,11 +427,35 @@ if (isset($_POST['hizmetler_veri_ekleme'])) {
 
 if (isset($_POST['egitim_veri_guncelleme'])) {
 	$sorgu=$db->prepare("UPDATE egitim SET
-	    egitim_baslik=:egitim_baslik
+	    egitim_baslik=:egitim_baslik,
+		egitim_1_baslik=:egitim_1_baslik,
+		egitim_1_tarih=:egitim_1_tarih,
+		egitim_1_aciklama=:egitim_1_aciklama,
+		egitim_2_baslik=:egitim_2_baslik,
+		egitim_2_tarih=:egitim_2_tarih,
+		egitim_2_aciklama=:egitim_2_aciklama,
+		egitim_3_baslik=:egitim_3_baslik,
+		egitim_3_tarih=:egitim_3_tarih,
+		egitim_3_aciklama=:egitim_3_aciklama,
+		egitim_4_baslik=:egitim_4_baslik,
+		egitim_4_tarih=:egitim_4_tarih,
+		egitim_4_aciklama=:egitim_4_aciklama
 		");
 
 	$sonuc=$sorgu->execute(array(
 		'egitim_baslik' => $_POST['egitim_baslik'],
+		'egitim_1_baslik' => $_POST['egitim_1_baslik'],
+		'egitim_1_tarih' => $_POST['egitim_1_tarih'],
+		'egitim_1_aciklama' => $_POST['egitim_1_aciklama'],
+		'egitim_2_baslik' => $_POST['egitim_2_baslik'],
+		'egitim_2_tarih' => $_POST['egitim_2_tarih'],
+		'egitim_2_aciklama' => $_POST['egitim_2_aciklama'],
+		'egitim_3_baslik' => $_POST['egitim_3_baslik'],
+		'egitim_3_tarih' => $_POST['egitim_3_tarih'],
+		'egitim_3_aciklama' => $_POST['egitim_3_aciklama'],
+		'egitim_4_baslik' => $_POST['egitim_4_baslik'],
+		'egitim_4_tarih' => $_POST['egitim_4_tarih'],
+		'egitim_4_aciklama' => $_POST['egitim_4_aciklama'],
 	));
 
 	if ($sonuc) {
@@ -449,11 +473,35 @@ if (isset($_POST['egitim_veri_guncelleme'])) {
 
 if (isset($_POST['egitim_veri_ekleme'])) {
 	$sorgu=$db->prepare("INSERT INTO egitim SET
-	    egitim_baslik=:egitim_baslik
+	    egitim_baslik=:egitim_baslik,
+		egitim_1_baslik=:egitim_1_baslik,
+		egitim_1_tarih=:egitim_1_tarih,
+		egitim_1_aciklama=:egitim_1_aciklama,
+		egitim_2_baslik=:egitim_2_baslik,
+		egitim_2_tarih=:egitim_2_tarih,
+		egitim_2_aciklama=:egitim_2_aciklama,
+		egitim_3_baslik=:egitim_3_baslik,
+		egitim_3_tarih=:egitim_3_tarih,
+		egitim_3_aciklama=:egitim_3_aciklama,
+		egitim_4_baslik=:egitim_4_baslik,
+		egitim_4_tarih=:egitim_4_tarih,
+		egitim_4_aciklama=:egitim_4_aciklama
 		");
 
 	$sonuc=$sorgu->execute(array(
 		'egitim_baslik' => $_POST['egitim_baslik'],
+		'egitim_1_baslik' => $_POST['egitim_1_baslik'],
+		'egitim_1_tarih' => $_POST['egitim_1_tarih'],
+		'egitim_1_aciklama' => $_POST['egitim_1_aciklama'],
+		'egitim_2_baslik' => $_POST['egitim_2_baslik'],
+		'egitim_2_tarih' => $_POST['egitim_2_tarih'],
+		'egitim_2_aciklama' => $_POST['egitim_2_aciklama'],
+		'egitim_3_baslik' => $_POST['egitim_3_baslik'],
+		'egitim_3_tarih' => $_POST['egitim_3_tarih'],
+		'egitim_3_aciklama' => $_POST['egitim_3_aciklama'],
+		'egitim_4_baslik' => $_POST['egitim_4_baslik'],
+		'egitim_4_tarih' => $_POST['egitim_4_tarih'],
+		'egitim_4_aciklama' => $_POST['egitim_4_aciklama'],
 	));
 
 	if ($sonuc) {
