@@ -55,6 +55,67 @@
                                 <input type="text" class="form-control rounded-left" name="tecrube_baslik" id="tecrube_baslik" value="<?php echo $tecrube['tecrube_baslik'] ?>">
                             </div>
 
+                            <div class="form-group">
+                                <p> Tecrübe 1 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_1_baslik" id="tecrube_1_baslik" value="<?php echo $tecrube['tecrube_1_baslik'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 1 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_1_tarih" id="tecrube_1_tarih" value="<?php echo $tecrube['tecrube_1_tarih'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 1 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_1_aciklama" id="tecrube_1_aciklama" value="<?php echo $tecrube['tecrube_1_aciklama'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 2 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_2_baslik" id="tecrube_2_baslik" value="<?php echo $tecrube['tecrube_2_baslik'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 2 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_2_tarih" id="tecrube_2_tarih" value="<?php echo $tecrube['tecrube_2_tarih'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 2 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_2_aciklama" id="tecrube_2_aciklama" value="<?php echo $tecrube['tecrube_2_aciklama'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 3 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_3_baslik" id="tecrube_3_baslik" value="<?php echo $tecrube['tecrube_3_baslik'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 3 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_3_tarih" id="tecrube_3_tarih" value="<?php echo $tecrube['tecrube_3_tarih'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 3 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_3_aciklama" id="tecrube_3_aciklama" value="<?php echo $tecrube['tecrube_3_aciklama'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 4 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_4_baslik" id="tecrube_4_baslik" value="<?php echo $tecrube['tecrube_4_baslik'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 4 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_4_tarih" id="tecrube_4_tarih" value="<?php echo $tecrube['tecrube_4_tarih'] ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 4 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_4_aciklama" id="tecrube_4_aciklama" value="<?php echo $tecrube['tecrube_4_aciklama'] ?>">
+                            </div>
+
+
                             <!-- Tecrübe Veri Güncelleme -->
 
                             <!-- Veri Güncelleme -->
@@ -90,6 +151,66 @@
                             <div class="form-group">
                                 <p> Tecrübe Başlık </p>
                                 <input type="text" class="form-control rounded-left" name="tecrube_baslik" id="tecrube_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 1 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_1_baslik" id="tecrube_1_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 1 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_1_tarih" id="tecrube_1_tarih">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 1 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_1_aciklama" id="tecrube_1_aciklama">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 2 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_2_baslik" id="tecrube_2_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 2 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_2_tarih" id="tecrube_2_tarih">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 2 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_2_aciklama" id="tecrube_2_aciklama">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 3 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_3_baslik" id="tecrube_3_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 3 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_3_tarih" id="tecrube_3_tarih">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 3 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_3_aciklama" id="tecrube_3_aciklama">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 4 Başlık </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_4_baslik" id="tecrube_4_baslik">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 4 Tarih </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_4_tarih" id="tecrube_4_tarih">
+                            </div>
+
+                            <div class="form-group">
+                                <p> Tecrübe 4 Açıklama </p>
+                                <input type="text" class="form-control rounded-left" name="tecrube_4_aciklama" id="tecrube_4_aciklama">
                             </div>
 
                             <!-- Tecrübe Veri Ekleme -->

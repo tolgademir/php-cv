@@ -49,7 +49,7 @@
               <span class="icon-menu"></span>
               <span class="icon-menu"></span>
             </button>
-            <!-- <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a> -->
+            <a href="index.php" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
@@ -296,34 +296,36 @@
 
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">Art Director - Tesla Inc.</h3>
-                    <span>Jan 2018 - Present</span>
-                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                    <h3 class="line-title"><?php echo $tecrube["tecrube_1_baslik"]?></h3>
+                    <span><?php echo $tecrube["tecrube_1_tarih"]?></span>
+                    <p class="line-text"><?php echo $tecrube["tecrube_1_aciklama"]?></p>
                   </div>
                 </li>
 
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">Art Director - Tesla Inc.</h3>
-                    <span>Jan 2018 - Present</span>
-                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                    <h3 class="line-title"><?php echo $tecrube["tecrube_2_baslik"]?></h3>
+                    <span><?php echo $tecrube["tecrube_2_tarih"]?></span>
+                    <p class="line-text"><?php echo $tecrube["tecrube_2_aciklama"]?></p>
                   </div>
                 </li>
 
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">UX/UI Designer - Samsung</h3>
-                    <span>Nov 2016 - Dec 2017</span>
-                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                    <h3 class="line-title"><?php echo $tecrube["tecrube_3_baslik"]?></h3>
+                    <span><?php echo $tecrube["tecrube_3_tarih"]?></span>
+                    <p class="line-text"><?php echo $tecrube["tecrube_3_aciklama"]?></p>
                   </div>
                 </li>
+
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">Intern UI Designer - UIdeck</h3>
-                    <span>Mar 2015 - Oct 2016</span>
-                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                    <h3 class="line-title"><?php echo $tecrube["tecrube_4_baslik"]?></h3>
+                    <span><?php echo $tecrube["tecrube_4_tarih"]?></span>
+                    <p class="line-text"><?php echo $tecrube["tecrube_4_aciklama"]?></p>
                   </div>
                 </li>
+
               </ul>
             </div>
           </div>

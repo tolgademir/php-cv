@@ -523,11 +523,35 @@ if (isset($_POST['egitim_veri_ekleme'])) {
 
 if (isset($_POST['tecrube_veri_guncelleme'])) {
 	$sorgu=$db->prepare("UPDATE tecrube SET
-	    tecrube_baslik=:tecrube_baslik
+	    tecrube_baslik=:tecrube_baslik,
+		tecrube_1_baslik=:tecrube_1_baslik,
+		tecrube_1_tarih=:tecrube_1_tarih,
+		tecrube_1_aciklama=:tecrube_1_aciklama,
+		tecrube_2_baslik=:tecrube_2_baslik,
+		tecrube_2_tarih=:tecrube_2_tarih,
+		tecrube_2_aciklama=:tecrube_2_aciklama,
+		tecrube_3_baslik=:tecrube_3_baslik,
+		tecrube_3_tarih=:tecrube_3_tarih,
+		tecrube_3_aciklama=:tecrube_3_aciklama,
+		tecrube_4_baslik=:tecrube_4_baslik,
+		tecrube_4_tarih=:tecrube_4_tarih,
+		tecrube_4_aciklama=:tecrube_4_aciklama
 		");
 
 	$sonuc=$sorgu->execute(array(
 		'tecrube_baslik' => $_POST['tecrube_baslik'],
+		'tecrube_1_baslik' => $_POST['tecrube_1_baslik'],
+		'tecrube_1_tarih' => $_POST['tecrube_1_tarih'],
+		'tecrube_1_aciklama' => $_POST['tecrube_1_aciklama'],
+		'tecrube_2_baslik' => $_POST['tecrube_2_baslik'],
+		'tecrube_2_tarih' => $_POST['tecrube_2_tarih'],
+		'tecrube_2_aciklama' => $_POST['tecrube_2_aciklama'],
+		'tecrube_3_baslik' => $_POST['tecrube_3_baslik'],
+		'tecrube_3_tarih' => $_POST['tecrube_3_tarih'],
+		'tecrube_3_aciklama' => $_POST['tecrube_3_aciklama'],
+		'tecrube_4_baslik' => $_POST['tecrube_4_baslik'],
+		'tecrube_4_tarih' => $_POST['tecrube_4_tarih'],
+		'tecrube_4_aciklama' => $_POST['tecrube_4_aciklama'],
 	));
 
 	if ($sonuc) {
@@ -545,11 +569,35 @@ if (isset($_POST['tecrube_veri_guncelleme'])) {
 
 if (isset($_POST['tecrube_veri_ekleme'])) {
 	$sorgu=$db->prepare("INSERT INTO tecrube SET
-	    tecrube_baslik=:tecrube_baslik
+	    tecrube_baslik=:tecrube_baslik,
+		tecrube_1_baslik=:tecrube_1_baslik,
+		tecrube_1_tarih=:tecrube_1_tarih,
+		tecrube_1_aciklama=:tecrube_1_aciklama,
+		tecrube_2_baslik=:tecrube_2_baslik,
+		tecrube_2_tarih=:tecrube_2_tarih,
+		tecrube_2_aciklama=:tecrube_2_aciklama,
+		tecrube_3_baslik=:tecrube_3_baslik,
+		tecrube_3_tarih=:tecrube_3_tarih,
+		tecrube_3_aciklama=:tecrube_3_aciklama,
+		tecrube_4_baslik=:tecrube_4_baslik,
+		tecrube_4_tarih=:tecrube_4_tarih,
+		tecrube_4_aciklama=:tecrube_4_aciklama
 		");
 
 	$sonuc=$sorgu->execute(array(
 		'tecrube_baslik' => $_POST['tecrube_baslik'],
+		'tecrube_1_baslik' => $_POST['tecrube_1_baslik'],
+		'tecrube_1_tarih' => $_POST['tecrube_1_tarih'],
+		'tecrube_1_aciklama' => $_POST['tecrube_1_aciklama'],
+		'tecrube_2_baslik' => $_POST['tecrube_2_baslik'],
+		'tecrube_2_tarih' => $_POST['tecrube_2_tarih'],
+		'tecrube_2_aciklama' => $_POST['tecrube_2_aciklama'],
+		'tecrube_3_baslik' => $_POST['tecrube_3_baslik'],
+		'tecrube_3_tarih' => $_POST['tecrube_3_tarih'],
+		'tecrube_3_aciklama' => $_POST['tecrube_3_aciklama'],
+		'tecrube_4_baslik' => $_POST['tecrube_4_baslik'],
+		'tecrube_4_tarih' => $_POST['tecrube_4_tarih'],
+		'tecrube_4_aciklama' => $_POST['tecrube_4_aciklama'],
 	));
 
 	if ($sonuc) {
