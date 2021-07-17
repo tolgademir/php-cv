@@ -14,6 +14,8 @@ v.1.5 : The bottom part has been added.
 
 v.1.6 : The sub-sections of the education part have been added.
 
+v.1.7 : The sub-sections of the experience part have been added.  
+
 # Live
 
 Coming soon.
@@ -26,8 +28,9 @@ Coming soon.
 · JAVASCRİPT<br>
 · MYSQL<br>
 
-# Project Screenshot v.1.6
-![v 1 6](https://user-images.githubusercontent.com/40199261/125844972-caaafe83-7263-466d-88cd-24750fce3122.png)
+# Project Screenshot v.1.7
+![v 1 7](https://user-images.githubusercontent.com/40199261/126039307-e1a43cfd-dc68-4736-80b4-d9493cfbed8b.png)
+
 
 
 
