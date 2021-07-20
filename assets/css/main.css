@@ -801,7 +801,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .controls .btn {
-  text-transform: uppercase;
   margin: 2px;
   color: #fff;
 }

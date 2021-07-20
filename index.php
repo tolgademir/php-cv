@@ -334,11 +334,11 @@
     </div>
     <!-- Resume Section End -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolios" class="section-padding">
+     <!-- Portfolio Section -->
+     <section id="portfolios" class="section-padding">
       <!-- Container Starts -->
       <div class="container">        
-        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Remarkable Works</h2>
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s"> <?php echo $calismalarim["calismalarim_baslik"] ?> </h2>
         <div class="row">          
           <div class="col-md-12">
             <!-- Portfolio Controller/Buttons -->
@@ -352,8 +352,8 @@
               <a class="filter btn btn-common" data-filter=".development">
                 Development
               </a>
-              <a class="filter btn btn-common" data-filter=".print">
-                Print 
+              <a class="filter btn btn-common" data-filter=".kurumsal-websiteler">
+                Kurumsal Projeler 
               </a>
             </div>
             <!-- Portfolio Controller/Buttons Ends-->
@@ -361,16 +361,17 @@
 
           <!-- Portfolio Recent Projects -->
           <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix kurumsal-websiteler">
               <div class="portfolio-item">
                 <div class="shot-item">
-                  <img src="assets/img/gallery/img-1.jpg" alt="" />  
+                  <img src="panel/resimler/calismalarim/<?php echo $calismalarim["calismalarim_1_resim"] ?>" alt="" />  
                   <div class="overlay">
                     <div class="icons">
-                      <a class="lightbox preview" href="assets/img/gallery/img-1.jpg">
+                      <a class="lightbox preview" href="panel/resimler/calismalarim/<?php echo $calismalarim["calismalarim_1_resim"] ?>">
                         <i class="icon-eye"></i>
                       </a>
-                      <a class="link" href="#">
+                      <a class="link" href="<?php echo $calismalarim["calismalarim_1_link"] ?>">
                         <i class="icon-link"></i>
                       </a>
                     </div>
@@ -378,16 +379,17 @@
                 </div>               
               </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
+
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix kurumsal-websiteler">
               <div class="portfolio-item">
                 <div class="shot-item">
-                  <img src="assets/img/gallery/img-2.jpg" alt=""/> 
+                  <img src="panel/resimler/calismalarim/<?php echo $calismalarim["calismalarim_2_resim"] ?>" alt="" />  
                   <div class="overlay">
                     <div class="icons">
-                      <a class="lightbox preview" href="assets/img/gallery/img-2.jpg">
+                      <a class="lightbox preview" href="panel/resimler/calismalarim/<?php echo $calismalarim["calismalarim_2_resim"] ?>">
                         <i class="icon-eye"></i>
                       </a>
-                      <a class="link" href="#">
+                      <a class="link" href="<?php echo $calismalarim["calismalarim_2_link"] ?>">
                         <i class="icon-link"></i>
                       </a>
                     </div>
@@ -395,7 +397,26 @@
                 </div>               
               </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix kurumsal-websiteler">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="panel/resimler/calismalarim/<?php echo $calismalarim["calismalarim_3_resim"] ?>" alt="" />  
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="panel/resimler/calismalarim/<?php echo $calismalarim["calismalarim_3_resim"] ?>">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="<?php echo $calismalarim["calismalarim_3_link"] ?>">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design development">
               <div class="portfolio-item">
                 <div class="shot-item">
                   <img src="assets/img/gallery/img-3.jpg" alt=""/> 
@@ -412,6 +433,7 @@
                 </div>               
               </div>
             </div>
+
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
               <div class="portfolio-item">
                 <div class="shot-item">
@@ -429,7 +451,8 @@
                 </div>               
               </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design development">
               <div class="portfolio-item">
                 <div class="shot-item">
                   <img src="assets/img/gallery/img-5.jpg" alt="" /> 
@@ -446,23 +469,7 @@
                 </div>               
               </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
-              <div class="portfolio-item">
-                <div class="shot-item">
-                  <img src="assets/img/gallery/img-6.jpg" alt=""/>
-                  <div class="overlay">
-                    <div class="icons">
-                      <a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
-                        <i class="icon-eye"></i>
-                      </a>
-                      <a class="link" href="#">
-                        <i class="icon-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>               
-              </div>
-            </div>
+
           </div>
         </div>
       </div>

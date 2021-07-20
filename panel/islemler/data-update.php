@@ -2,7 +2,7 @@
 
 include "db.php";
 
-// PANEL
+// PANEL // PANEL
 
 if (isset($_POST['yonetici_paneli'])) {
 	$sorgu=$db->prepare("UPDATE yonetici_paneli SET 
@@ -38,11 +38,12 @@ if (isset($_POST['yonetici_paneli'])) {
 
 }
 
-// PANEL
+// PANEL // PANEL
 
-// SEO
 
-// SEO VERİ GÜNCELLEME
+// SEO // SEO
+
+// SEO VERİ GÜNCELLEME // SEO VERİ GÜNCELLEME
 
 if (isset($_POST['seo'])) {
 	$sorgu=$db->prepare("UPDATE seo SET 
@@ -76,17 +77,17 @@ if (isset($_POST['seo'])) {
 	}
 
 	if ($sonuc) {
-		header("location:../seo.php?durum=seo-islem-basarili");
+		header("location:../seo.php?durum=seo-veri-guncelleme-basarili");
 	} else {
-		header("location:../seo.php?durum=seo-islem-basarisiz");
+		header("location:../seo.php?durum=seo-veri-guncelleme-basarisiz");
 	}
 	exit;
 
 }
 
-// SEO VERİ GÜNCELLEME
+// SEO VERİ GÜNCELLEME // SEO VERİ GÜNCELLEME
 
-// SEO VERİ EKLEME
+// SEO VERİ EKLEME // SEO VERİ EKLEME
 
 if (isset($_POST['seoveriekle'])) {
 	if ($_FILES['seo_icon']['error']=="0") { 
@@ -94,7 +95,7 @@ if (isset($_POST['seoveriekle'])) {
 		$dosya_ismi=rand(100000,999999).$_FILES['seo_icon']['name'];
 		move_uploaded_file($gecici_isim,"../resimler/$dosya_ismi");
 	}
-	
+
 	$sorgu=$db->prepare("INSERT INTO seo SET
 		seo_baslik=:seo_baslik,
 		seo_aciklama=:seo_aciklama,
@@ -122,14 +123,14 @@ if (isset($_POST['seoveriekle'])) {
 	
 }
 
-// SEO VERİ EKLEME
+// SEO VERİ EKLEME // SEO VERİ EKLEME
 
-// SEO
+// SEO // SEO
 
 
-// ÜST KISIM
+// ÜST KISIM // ÜST KISIM
 
-// ÜST KISIM VERİ GÜNCELLEME
+// ÜST KISIM VERİ GÜNCELLEME // ÜST KISIM VERİ GÜNCELLEME
 
 if (isset($_POST['ust_kisim_veri_guncelleme'])) {
 	$sorgu=$db->prepare("UPDATE ust_kisim SET 
@@ -155,9 +156,9 @@ if (isset($_POST['ust_kisim_veri_guncelleme'])) {
 
 }
 
-// ÜST KISIM VERİ GÜNCELLEME
+// ÜST KISIM VERİ GÜNCELLEME // ÜST KISIM VERİ GÜNCELLEME
 
-// ÜST KISIM VERİ EKLEME
+// ÜST KISIM VERİ EKLEME // ÜST KISIM VERİ EKLEME
 
 if (isset($_POST['ust_kisim_veri_ekleme'])) {
 	$sorgu=$db->prepare("INSERT INTO ust_kisim SET
@@ -183,13 +184,14 @@ if (isset($_POST['ust_kisim_veri_ekleme'])) {
 
 }
 
-// ÜST KISIM VERİ EKLEME
+// ÜST KISIM VERİ EKLEME // ÜST KISIM VERİ EKLEME
 
-// ÜST KISIM
+// ÜST KISIM // ÜST KISIM
 
-// SOSYAL MEDYA
 
-// SOSYAL MEDYA VERİ GÜNCELLEME
+// SOSYAL MEDYA // SOSYAL MEDYA
+
+// SOSYAL MEDYA VERİ GÜNCELLEME // SOSYAL MEDYA VERİ GÜNCELLEME
 
 if (isset($_POST['sosyal_medya_veri_guncelleme'])) {
 	$sorgu=$db->prepare("UPDATE sosyal_medya SET 
@@ -215,9 +217,9 @@ if (isset($_POST['sosyal_medya_veri_guncelleme'])) {
 
 }
 
-// SOSYAL MEDYA VERİ GÜNCELLEME
+// SOSYAL MEDYA VERİ GÜNCELLEME // SOSYAL MEDYA VERİ GÜNCELLEME
 
-// SOSYAL MEDYA VERİ EKLEME
+// SOSYAL MEDYA VERİ EKLEME // SOSYAL MEDYA VERİ EKLEME
 
 if (isset($_POST['sosyal_medya_veri_ekleme'])) {
 	$sorgu=$db->prepare("INSERT INTO sosyal_medya SET
@@ -243,13 +245,14 @@ if (isset($_POST['sosyal_medya_veri_ekleme'])) {
 
 }
 
-// SOSYAL MEDYA VERİ EKLEME
+// SOSYAL MEDYA VERİ EKLEME // SOSYAL MEDYA VERİ EKLEME
 
-// SOSYAL MEDYA
+// SOSYAL MEDYA // SOSYAL MEDYA
 
-// HAKKIMDA
 
-// HAKKIMDA VERİ GÜNCELLEME
+// HAKKIMDA // HAKKIMDA
+
+// HAKKIMDA VERİ GÜNCELLEME // HAKKIMDA VERİ GÜNCELLEME
 
 if (isset($_POST['hakkimda_veri_guncelleme'])) {
 	$sorgu=$db->prepare("UPDATE hakkimda SET 
@@ -295,9 +298,9 @@ if (isset($_POST['hakkimda_veri_guncelleme'])) {
 
 }
 
-// HAKKIMDA VERİ GÜNCELLEME
+// HAKKIMDA VERİ GÜNCELLEME // HAKKIMDA VERİ GÜNCELLEME
 
-// HAKKIMDA VERİ EKLEME
+// HAKKIMDA VERİ EKLEME // HAKKIMDA VERİ EKLEME
 
 if (isset($_POST['hakkimda_veri_ekleme'])) {
 	if ($_FILES['hakkimda_resim']['error']=="0") { 
@@ -325,7 +328,7 @@ if (isset($_POST['hakkimda_veri_ekleme'])) {
 		'hakkimizda_bilgi_3' => $_POST['hakkimizda_bilgi_3'],
 		'hakkimizda_bilgi_4' => $_POST['hakkimizda_bilgi_4'],
 		'hakkimizda_bilgi_5' => $_POST['hakkimizda_bilgi_5'],
-		'hakkimda_resim' => $dosya_ismi
+		'hakkimda_resim' => $dosya_ismi,
 	));
 	
 	if ($sonuc) {
@@ -337,13 +340,14 @@ if (isset($_POST['hakkimda_veri_ekleme'])) {
 	
 }
 
-// HAKKIMDA VERİ EKLEME
+// HAKKIMDA VERİ EKLEME // HAKKIMDA VERİ EKLEME
 
-// HAKKIMDA
+// HAKKIMDA // HAKKIMDA
 
-// HİZMETLER
 
-// HİZMETLER VERİ GÜNCELLEME
+// HİZMETLER // HİZMETLER
+
+// HİZMETLER VERİ GÜNCELLEME // HİZMETLER VERİ GÜNCELLEME
 
 if (isset($_POST['hizmetler_veri_guncelleme'])) {
 	$sorgu=$db->prepare("UPDATE hizmetler SET 
@@ -379,9 +383,9 @@ if (isset($_POST['hizmetler_veri_guncelleme'])) {
 
 }
 
-// HİZMETLER VERİ GÜNCELLEME
+// HİZMETLER VERİ GÜNCELLEME // HİZMETLER VERİ GÜNCELLEME
 
-// HİZMETLER VERİ EKLEME
+// HİZMETLER VERİ EKLEME // HİZMETLER VERİ EKLEME
 
 if (isset($_POST['hizmetler_veri_ekleme'])) {
 	$sorgu=$db->prepare("INSERT INTO hizmetler SET
@@ -417,13 +421,14 @@ if (isset($_POST['hizmetler_veri_ekleme'])) {
 
 }
 
-// HİZMETLER VERİ EKLEME
+// HİZMETLER VERİ EKLEME // HİZMETLER VERİ EKLEME
 
-// HİZMETLER
+// HİZMETLER // HİZMETLER
 
-// EĞİTİM
 
-// EĞİTİM VERİ GÜNCELLEME
+// EĞİTİM // EĞİTİM
+
+// EĞİTİM VERİ GÜNCELLEME // EĞİTİM VERİ GÜNCELLEME
 
 if (isset($_POST['egitim_veri_guncelleme'])) {
 	$sorgu=$db->prepare("UPDATE egitim SET
@@ -467,9 +472,9 @@ if (isset($_POST['egitim_veri_guncelleme'])) {
 
 }
 
-// EĞİTİM VERİ GÜNCELLEME
+// EĞİTİM VERİ GÜNCELLEME // EĞİTİM VERİ GÜNCELLEME
 
-// EĞİTİM VERİ EKLEME
+// EĞİTİM VERİ EKLEME // EĞİTİM VERİ EKLEME
 
 if (isset($_POST['egitim_veri_ekleme'])) {
 	$sorgu=$db->prepare("INSERT INTO egitim SET
@@ -513,13 +518,14 @@ if (isset($_POST['egitim_veri_ekleme'])) {
 
 }
 
-// EĞİTİM VERİ EKLEME
+// EĞİTİM VERİ EKLEME // EĞİTİM VERİ EKLEME
 
-// EĞİTİM
+// EĞİTİM // EĞİTİM
 
-// TECRÜBE
 
-// TECRÜBE VERİ GÜNCELLEME
+// TECRÜBE // TECRÜBE
+
+// TECRÜBE VERİ GÜNCELLEME // TECRÜBE VERİ GÜNCELLEME
 
 if (isset($_POST['tecrube_veri_guncelleme'])) {
 	$sorgu=$db->prepare("UPDATE tecrube SET
@@ -563,9 +569,9 @@ if (isset($_POST['tecrube_veri_guncelleme'])) {
 
 }
 
-// TECRÜBE VERİ GÜNCELLEME
+// TECRÜBE VERİ GÜNCELLEME // TECRÜBE VERİ GÜNCELLEME
 
-// TECRÜBE VERİ EKLEME
+// TECRÜBE VERİ EKLEME // TECRÜBE VERİ EKLEME
 
 if (isset($_POST['tecrube_veri_ekleme'])) {
 	$sorgu=$db->prepare("INSERT INTO tecrube SET
@@ -609,13 +615,14 @@ if (isset($_POST['tecrube_veri_ekleme'])) {
 
 }
 
-// TECRÜBE VERİ EKLEME
+// TECRÜBE VERİ EKLEME // TECRÜBE VERİ EKLEME
 
-// TECRÜBE
+// TECRÜBE // TECRÜBE
 
-// ALT KISIM 
 
-// ALT KISIM VERİ GÜNCELLEME
+// ALT KISIM // ALT KISIM 
+
+// ALT KISIM VERİ GÜNCELLEME // ALT KISIM VERİ GÜNCELLEME
 
 if (isset($_POST['alt_kisim_metin_veri_guncelleme'])) {
 	$sorgu=$db->prepare("UPDATE alt_kisim SET
@@ -635,9 +642,9 @@ if (isset($_POST['alt_kisim_metin_veri_guncelleme'])) {
 
 }
 
-// ALT KISIM VERİ GÜNCELLEME
+// ALT KISIM VERİ GÜNCELLEME // ALT KISIM VERİ GÜNCELLEME
 
-// ALT KISIM VERİ EKLEME
+// ALT KISIM VERİ EKLEME // ALT KISIM VERİ EKLEME
 
 if (isset($_POST['alt_kisim_metin_veri_ekleme'])) {
 	$sorgu=$db->prepare("INSERT INTO alt_kisim SET
@@ -657,8 +664,133 @@ if (isset($_POST['alt_kisim_metin_veri_ekleme'])) {
 
 }
 
-// ALT KISIM VERİ EKLEME
+// ALT KISIM VERİ EKLEME // ALT KISIM VERİ EKLEME
 
-// ALT KISIM 
+// ALT KISIM  // ALT KISIM 
+
+
+// ÇALIŞMALARIM // ÇALIŞMALARIM
+
+// ÇALIŞMALARIM VERİ GÜNCELLEME // ÇALIŞMALARIM VERİ GÜNCELLEME
+
+if (isset($_POST['calismalarim_veri_guncelleme'])) {
+	$sorgu=$db->prepare("UPDATE calismalarim SET 
+		calismalarim_baslik=:calismalarim_baslik,
+		calismalarim_1_link=:calismalarim_1_link,
+		calismalarim_2_link=:calismalarim_2_link,
+		calismalarim_3_link=:calismalarim_3_link
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'calismalarim_baslik' => $_POST['calismalarim_baslik'],
+		'calismalarim_1_link' => $_POST['calismalarim_1_link'],
+		'calismalarim_2_link' => $_POST['calismalarim_2_link'],
+		'calismalarim_3_link' => $_POST['calismalarim_3_link'],
+	));
+
+	if ($_FILES['calismalarim_1_resim']['error']=="0") { 
+		$gecici_isim=$_FILES['calismalarim_1_resim']['tmp_name'];
+		$dosya_ismi=rand(100000,999999).$_FILES['calismalarim_1_resim']['name'];
+		move_uploaded_file($gecici_isim,"../resimler/calismalarim/$dosya_ismi");
+	
+		$sorgu=$db->prepare("UPDATE calismalarim SET 
+			calismalarim_1_resim=:calismalarim_1_resim
+			");
+	
+		$sonuc=$sorgu->execute(array(
+			'calismalarim_1_resim' => $dosya_ismi,
+		));
+	}
+
+	if ($_FILES['calismalarim_2_resim']['error']=="0") { 
+		$gecici_isim=$_FILES['calismalarim_2_resim']['tmp_name'];
+		$dosya_ismi=rand(100000,999999).$_FILES['calismalarim_2_resim']['name'];
+		move_uploaded_file($gecici_isim,"../resimler/calismalarim/$dosya_ismi");
+	
+		$sorgu=$db->prepare("UPDATE calismalarim SET 
+			calismalarim_2_resim=:calismalarim_2_resim
+			");
+	
+		$sonuc=$sorgu->execute(array(
+			'calismalarim_2_resim' => $dosya_ismi,
+		));
+	}
+
+	if ($_FILES['calismalarim_3_resim']['error']=="0") { 
+		$gecici_isim=$_FILES['calismalarim_3_resim']['tmp_name'];
+		$dosya_ismi=rand(100000,999999).$_FILES['calismalarim_3_resim']['name'];
+		move_uploaded_file($gecici_isim,"../resimler/calismalarim/$dosya_ismi");
+	
+		$sorgu=$db->prepare("UPDATE calismalarim SET 
+			calismalarim_3_resim=:calismalarim_3_resim
+			");
+	
+		$sonuc=$sorgu->execute(array(
+			'calismalarim_3_resim' => $dosya_ismi,
+		));
+	}
+
+	if ($sonuc) {
+		header("location:../calismalarim.php?durum=calismalarim-veri-guncelleme-islemi-basarili");
+	} else {
+		header("location:../calismalarim.php?durum=calismalarim-veri-guncelleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// ÇALIŞMALARIM VERİ GÜNCELLEME // ÇALIŞMALARIM VERİ GÜNCELLEME
+
+// ÇALIŞMALARIM VERİ EKLEME // ÇALIŞMALARIM VERİ EKLEME
+
+if (isset($_POST['calismalarim_veri_ekleme'])) {
+	if ($_FILES['calismalarim_1_resim']['error']=="0") { 
+		$gecici_isim=$_FILES['calismalarim_1_resim']['tmp_name'];
+		$dosya_ismi=rand(100000,999999).$_FILES['calismalarim_1_resim']['name'];
+		move_uploaded_file($gecici_isim,"../resimler/calismalarim/$dosya_ismi");
+	}
+	if ($_FILES['calismalarim_2_resim']['error']=="0") { 
+		$gecici_isim2=$_FILES['calismalarim_2_resim']['tmp_name'];
+		$dosya_ismi2=rand(100000,999999).$_FILES['calismalarim_2_resim']['name'];
+		move_uploaded_file($gecici_isim2,"../resimler/calismalarim/$dosya_ismi2");
+	}
+	if ($_FILES['calismalarim_3_resim']['error']=="0") { 
+		$gecici_isim3=$_FILES['calismalarim_3_resim']['tmp_name'];
+		$dosya_ismi3=rand(100000,999999).$_FILES['calismalarim_3_resim']['name'];
+		move_uploaded_file($gecici_isim3,"../resimler/calismalarim/$dosya_ismi3");
+	}
+
+	$sorgu=$db->prepare("INSERT INTO calismalarim SET
+		calismalarim_baslik=:calismalarim_baslik,
+		calismalarim_1_link=:calismalarim_1_link,
+		calismalarim_1_resim=:calismalarim_1_resim,
+	    calismalarim_2_resim=:calismalarim_2_resim,
+		calismalarim_2_link=:calismalarim_2_link,
+		calismalarim_3_resim=:calismalarim_3_resim,
+		calismalarim_3_link=:calismalarim_3_link
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'calismalarim_baslik' => $_POST['calismalarim_baslik'],
+		'calismalarim_1_link' => $_POST['calismalarim_1_link'],
+		'calismalarim_2_link' => $_POST['calismalarim_2_link'],
+		'calismalarim_3_link' => $_POST['calismalarim_3_link'],
+		'calismalarim_1_resim' => $dosya_ismi,
+	    'calismalarim_2_resim' => $dosya_ismi2,
+		'calismalarim_3_resim' => $dosya_ismi3
+	));
+
+	if ($sonuc) {
+		header("location:../calismalarim.php?durum=calismalarim-veri-ekleme-islemi-basarili");
+	} else {
+		header("location:../calismalarim.php?durum=calismalarim-veri-ekleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// ÇALIŞMALARIM VERİ EKLEME // ÇALIŞMALARIM VERİ EKLEME
+
+// ÇALIŞMALARIM // ÇALIŞMALARIM
 
 ?>

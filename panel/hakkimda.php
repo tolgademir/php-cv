@@ -31,6 +31,7 @@
         <li><a class="" href="./egitim.php">Eğitim</a></li>
         <li><a class="" href="./tecrube.php">Tecrübe</a></li>
         <li><a class="" href="./alt-kisim.php">Alt Kısım</a></li>
+        <li><a class="" href="./calismalarim.php">Çalışmalarım</a></li>
         <li><a class="" href="../index.php" target="_blank">Siteyi Görüntüle</a></li>
     </ul>
 
