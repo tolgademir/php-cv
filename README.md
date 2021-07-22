@@ -18,7 +18,7 @@ v.1.7 : The sub-sections of the experience part have been added.
 
 v.1.8 : "My works" and the sub-sections of "my works" parts have been added.
 
-v.1.9 : 
+v.1.9 : Performance improvement has been made. Errors have been fixed.
 
 # Live
 
