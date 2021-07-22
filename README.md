@@ -18,6 +18,8 @@ v.1.7 : The sub-sections of the experience part have been added.
 
 v.1.8 : "My works" and the sub-sections of "my works" parts have been added.
 
+v.1.9 : 
+
 # Live
 
 Coming soon.
@@ -30,8 +32,9 @@ Coming soon.
 · JAVASCRİPT<br>
 · MYSQL<br>
 
-# Project Screenshot v.1.8
-![v 1 8](https://user-images.githubusercontent.com/40199261/126310643-6c7a25c2-69f9-4aed-a0fe-cdc8a25627d8.png)
+# Project Screenshot v.1.9
+![v 1 9](https://user-images.githubusercontent.com/40199261/126642545-36e5bc0b-55b4-4a01-b75a-c01fe82312e9.png)
+
 
 
 
