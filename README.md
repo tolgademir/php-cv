@@ -24,7 +24,7 @@ v.2.0 : The part of admin panel data addition has been added.
 
 # Live
 
-https://cv.tekohaber.com
+Main URL : https://cv.tekohaber.com
 
 Panel URL : https://cv.tekohaber.com/panel
 
