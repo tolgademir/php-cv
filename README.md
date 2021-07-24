@@ -20,9 +20,13 @@ v.1.8 : "My works" and the sub-sections of "my works" parts have been added.
 
 v.1.9 : Performance improvement has been made. Errors have been fixed.
 
+v.2.0 : The part of admin panel data addition has been added.
+
 # Live
 
-Coming soon.
+cv.tekohaber.com
+
+Panel URL : cv.tekohaber.com/panel 
 
 # Used Technologies
 
@@ -32,8 +36,9 @@ Coming soon.
 · JAVASCRİPT<br>
 · MYSQL<br>
 
-# Project Screenshot v.1.9
-![v 1 9](https://user-images.githubusercontent.com/40199261/126642545-36e5bc0b-55b4-4a01-b75a-c01fe82312e9.png)
+# Project Screenshot v.2.0
+![v 2 0](https://user-images.githubusercontent.com/40199261/126875797-a5f152a5-1626-470c-9006-d84eb2ff24ce.png)
+
 
 
 
