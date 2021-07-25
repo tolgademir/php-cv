@@ -22,6 +22,8 @@ v.1.9 : Performance improvement has been made. Errors have been fixed.
 
 v.2.0 : The part of admin panel data addition has been added.
 
+v.2.1 : 
+
 # Live
 
 Main URL : https://cv.tekohaber.com
@@ -36,8 +38,9 @@ Panel URL : https://cv.tekohaber.com/panel
 · JAVASCRİPT<br>
 · MYSQL<br>
 
-# Project Screenshot v.2.0
-![v 2 0](https://user-images.githubusercontent.com/40199261/126875797-a5f152a5-1626-470c-9006-d84eb2ff24ce.png)
+# Project Screenshot v.2.1
+![v 2 1](https://user-images.githubusercontent.com/40199261/126905910-3d0f265d-3a22-4f34-abad-3aa5b0308ad5.png)
+
 
 
 
