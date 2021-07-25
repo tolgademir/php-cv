@@ -22,7 +22,7 @@ v.1.9 : Performance improvement has been made. Errors have been fixed.
 
 v.2.0 : The part of admin panel data addition has been added.
 
-v.2.1 : 
+v.2.1 : The system of entrance has been integrated.
 
 # Live
 
