@@ -24,6 +24,8 @@ v.2.0 : The part of admin panel data addition has been added.
 
 v.2.1 : The system of entrance has been integrated.
 
+v.2.2 :
+
 # Live
 
 Main URL : https://cv.tekohaber.com
@@ -38,8 +40,9 @@ Panel URL : https://cv.tekohaber.com/panel
 · JAVASCRİPT<br>
 · MYSQL<br>
 
-# Project Screenshot v.2.1
-![v 2 1](https://user-images.githubusercontent.com/40199261/126905910-3d0f265d-3a22-4f34-abad-3aa5b0308ad5.png)
+# Project Screenshot v.2.2
+![v 2 2](https://user-images.githubusercontent.com/40199261/127026377-abeee9af-996e-43c0-98b5-0b121e9bace6.png)
+
 
 
 
