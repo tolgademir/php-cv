@@ -26,7 +26,7 @@ v.2.1 : The system of entrance has been integrated.
 
 v.2.2 :
 
-# Live
+# Live v.2.1
 
 Main URL : https://cv.tekohaber.com
 
