@@ -24,7 +24,7 @@ v.2.0 : The part of admin panel data addition has been added.
 
 v.2.1 : The system of entrance has been integrated.
 
-v.2.2 :
+v.2.2 : Contact part has been added.
 
 # Live v.2.1
 
