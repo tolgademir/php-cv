@@ -60,4 +60,8 @@ $sorgu=$db->prepare("SELECT * FROM calismalarim");
 $sorgu->execute();
 $calismalarim=$sorgu->fetch(PDO::FETCH_ASSOC);
 
+$sorgu=$db->prepare("SELECT * FROM iletisim");
+$sorgu->execute();
+$iletisim=$sorgu->fetch(PDO::FETCH_ASSOC);
+
 ?>

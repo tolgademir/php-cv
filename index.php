@@ -474,48 +474,7 @@
       <!-- Container Ends -->
     </section>
     <!-- Portfolio Section Ends --> 
-
-    <!-- Counter Area Start-->
-    <section class="counter-section section-padding">
-      <div class="container">
-        <div class="row">
-          <!-- Counter Item -->
-          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-            <div class="counter wow fadeInDown" data-wow-delay="0.3s">
-              <div class="icon"><i class="icon-briefcase"></i></div>
-              <div class="counterUp">250</div>
-              <p>Project Working</p>
-            </div>
-          </div>
-          <!-- Counter Item -->
-          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-            <div class="counter wow fadeInDown" data-wow-delay="0.6s">
-              <div class="icon"><i class="icon-check"></i></div>
-              <div class="counterUp">950</div>
-              <p>Project Done</p>
-            </div>
-          </div>
-          <!-- Counter Item -->
-          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-            <div class="counter wow fadeInDown" data-wow-delay="0.9s">
-              <div class="icon"><i class="icon-diamond"></i></div>
-              <div class="counterUp">150</div>
-              <p>Awards Received</p>
-            </div>
-          </div>
-          <!-- Counter Item -->
-          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-            <div class="counter wow fadeInDown" data-wow-delay="1.2s">
-              <div class="icon"><i class="icon-heart"></i></div>
-              <div class="counterUp">299</div>
-              <p>Happy Clients</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Counter Area End-->
-
+    
     <!-- Contact Section Start -->
     <section id="contact" class="section-padding">      
       <div class="contact-form">
@@ -523,7 +482,7 @@
           <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
             <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="contact-block">
-                <h2>Contact Form</h2>
+                <h2> <?php echo $iletisim["iletisim_baslik_1"] ?> </h2>
                 <form id="contactForm">
                   <div class="row">
                     <div class="col-md-6">
@@ -561,7 +520,7 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="footer-right-area wow fadeIn">
-                <h2>Contact Address</h2>
+                <h2> <?php echo $iletisim["iletisim_baslik_2"] ?> </h2>
                 <div class="footer-right-contact">
                   <div class="single-contact">
                     <div class="contact-icon">

@@ -935,4 +935,57 @@ if (isset($_POST['oturumacma'])) {
 
 // OTURUM AÇMA // OTURUM AÇMA
 
+
+// İLETİŞİM // İLETİŞİM 
+
+// İLETİŞİM VERİ GÜNCELLEME // İLETİŞİM VERİ GÜNCELLEME
+
+if (isset($_POST['iletisim_veri_guncelleme'])) {
+	$sorgu=$db->prepare("UPDATE iletisim SET 
+		iletisim_baslik_1=:iletisim_baslik_1,
+		iletisim_baslik_2=:iletisim_baslik_2
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'iletisim_baslik_1' => $_POST['iletisim_baslik_1'],
+		'iletisim_baslik_2' => $_POST['iletisim_baslik_2'],
+	));
+
+	if ($sonuc) {
+		header("location:../iletisim.php?durum=iletisim-veri-guncelleme-islemi-basarili");
+	} else {
+		header("location:../iletisim.php?durum=iletisim-veri-guncelleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// İLETİŞİM VERİ GÜNCELLEME // İLETİŞİM VERİ GÜNCELLEME
+
+// İLETİŞİM VERİ EKLEME // İLETİŞİM VERİ EKLEME
+
+if (isset($_POST['iletisim_veri_ekleme'])) {
+	$sorgu=$db->prepare("INSERT INTO iletisim SET 
+		iletisim_baslik_1=:iletisim_baslik_1,
+		iletisim_baslik_2=:iletisim_baslik_2
+		");
+
+	$sonuc=$sorgu->execute(array(
+		'iletisim_baslik_1' => $_POST['iletisim_baslik_1'],
+		'iletisim_baslik_2' => $_POST['iletisim_baslik_2'],
+	));
+
+	if ($sonuc) {
+		header("location:../iletisim.php?durum=iletisim-veri-ekleme-islemi-basarili");
+	} else {
+		header("location:../iletisim.php?durum=iletisim-veri-ekleme-islemi-basarisiz");
+	}
+	exit;
+
+}
+
+// İLETİŞİM VERİ EKLEME // İLETİŞİM VERİ EKLEME
+
+// İLETİŞİM // İLETİŞİM 
+
 ?>

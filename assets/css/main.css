@@ -977,7 +977,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .contact-form-area h2 {
   font-size: 18px;
-  text-transform: uppercase;
 }
 
 .footer-right-contact {

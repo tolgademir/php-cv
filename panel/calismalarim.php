@@ -38,6 +38,7 @@ oturumkontrol();
         <li><a class="" href="./tecrube.php">Tecrübe</a></li>
         <li><a class="" href="./alt-kisim.php">Alt Kısım</a></li>
         <li><a class="active" href="./calismalarim.php">Çalışmalarım</a></li>
+        <li><a class="" href="./iletisim.php">İletişim</a></li>
         <li><a class="" href="../index.php" target="_blank">Siteyi Görüntüle</a></li>
         <li><a class="" href="islemler/cikis.php">Çıkış Yap</a></li>
     </ul>

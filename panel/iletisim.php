@@ -36,9 +36,9 @@ oturumkontrol();
         <li><a class="" href="./hizmetler.php">Hizmetler</a></li>
         <li><a class="" href="./egitim.php">Eğitim</a></li>
         <li><a class="" href="./tecrube.php">Tecrübe</a></li>
-        <li><a class="active" href="./alt-kisim.php">Alt Kısım</a></li>
+        <li><a class="" href="./alt-kisim.php">Alt Kısım</a></li>
         <li><a class="" href="./calismalarim.php">Çalışmalarım</a></li>
-        <li><a class="" href="./iletisim.php">İletişim</a></li>
+        <li><a class="active" href="./iletisim.php">İletişim</a></li>
         <li><a class="" href="../index.php" target="_blank">Siteyi Görüntüle</a></li>
         <li><a class="" href="islemler/cikis.php">Çıkış Yap</a></li>
     </ul>
@@ -53,25 +53,30 @@ oturumkontrol();
                     <div class="login-wrap p-4 p-md-5">
                         <form action="islemler/data-update.php" method="POST" enctype="multipart/form-data" class="login-form">
 
-                            <!-- Alt Kısım Metin Veri Güncelleme -->
+                            <!-- İletişim Veri Güncelleme -->
                             
                             <br>
-                            <h5 class="panel">Alt Kısım Metin Veri Güncelleme</h5>
+                            <h5 class="panel">İletişim Veri Güncelleme</h5>
                             <br>
                         
                             <div class="form-group">
-                                <p> Alt Kısım Metin </p>
-                                <input type="text" class="form-control rounded-left" name="alt_kisim_metin" id="alt_kisim_metin" value="<?php echo $alt_kisim['alt_kisim_metin'] ?>">
+                                <p> İletişim Başlık 1 </p>
+                                <input type="text" class="form-control rounded-left" name="iletisim_baslik_1" id="iletisim_baslik_1" value="<?php echo $iletisim['iletisim_baslik_1'] ?>">
                             </div>
 
-                            <!-- Alt Kısım Metin Veri Güncelleme -->
+                            <div class="form-group">
+                                <p> İletişim Başlık 2 </p>
+                                <input type="text" class="form-control rounded-left" name="iletisim_baslik_2" id="iletisim_baslik_2" value="<?php echo $iletisim['iletisim_baslik_2'] ?>">
+                            </div>
+
+                            <!-- İletişim Veri Güncelleme -->
 
                             <!-- Veri Güncelleme -->
 
                             <br>
                             <br>
                             <div class="form-group">
-                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="alt_kisim_metin_veri_guncelleme">Güncelle</button>
+                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="iletisim_veri_guncelleme">Güncelle</button>
                             </div>
 
                             <!-- Veri Güncelleme -->
@@ -90,25 +95,30 @@ oturumkontrol();
                     <div class="login-wrap p-4 p-md-5">
                         <form action="islemler/data-update.php" method="POST" enctype="multipart/form-data" class="login-form">
 
-                            <!-- Alt Kısım Metin Veri Ekleme -->
+                            <!-- İletişim Veri Ekleme -->
                             
                             <br>
-                            <h5 class="panel">Alt Kısım Metin Veri Ekleme</h5>
+                            <h5 class="panel">İletişim Veri Ekleme</h5>
                             <br>
                         
                             <div class="form-group">
-                                <p> Alt Kısım Metin </p>
-                                <input type="text" class="form-control rounded-left" name="alt_kisim_metin" id="alt_kisim_metin">
+                                <p> İletişim Başlık 1 </p>
+                                <input type="text" class="form-control rounded-left" name="iletisim_baslik_1" id="iletisim_baslik_1">
                             </div>
 
-                            <!-- Alt Kısım Metin Veri Ekleme -->
+                            <div class="form-group">
+                                <p> İletişim Başlık 2 </p>
+                                <input type="text" class="form-control rounded-left" name="iletisim_baslik_2" id="iletisim_baslik_2">
+                            </div>
+
+                            <!-- İletişim Veri Ekleme -->
 
                             <!-- Veri Güncelleme -->
 
                             <br>
                             <br>
                             <div class="form-group">
-                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="alt_kisim_metin_veri_ekleme">Ekle</button>
+                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="iletisim_veri_ekleme">Ekle</button>
                             </div>
 
                             <!-- Veri Güncelleme -->
