@@ -26,7 +26,9 @@ v.2.1 : The system of entrance has been integrated.
 
 v.2.2 : The communication part has been added.
 
-# Live v.2.2
+v.2.3 : Performance improvement has been made. Some parts have been removed.
+
+# Live v.2.3
 
 Main URL : https://cv.tekohaber.com
 
@@ -40,8 +42,9 @@ Panel URL : https://cv.tekohaber.com/panel
 · JAVASCRİPT<br>
 · MYSQL<br>
 
-# Project Screenshot v.2.2
-![v 2 2](https://user-images.githubusercontent.com/40199261/127026377-abeee9af-996e-43c0-98b5-0b121e9bace6.png)
+# Project Screenshot v.2.3
+![v 2 3](https://user-images.githubusercontent.com/40199261/127152197-92ff3ed2-9fa8-4a43-bed8-cf03ea5f8ae2.png)
+
 
 
 
