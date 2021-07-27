@@ -28,6 +28,8 @@ v.2.2 : The communication part has been added.
 
 v.2.3 : Performance improvement has been made. Some parts have been removed.
 
+v.2.4 : Database has been added.
+
 # Live v.2.3
 
 Main URL : https://cv.tekohaber.com
