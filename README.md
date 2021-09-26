@@ -32,9 +32,7 @@ v.2.4 : Database has been added.
 
 # Live v.2.4
 
-Main URL : https://cv.tekohaber.com
-
-Panel URL : https://cv.tekohaber.com/panel
+Coming Soon.
 
 # Used Technologies
 
